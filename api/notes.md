@@ -1,0 +1,1 @@
+This project requires to use python `3.11`

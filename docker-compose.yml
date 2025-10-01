@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  api:
+    restart: always
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    ports:
+      - 8000:8000
+
+  slack-bot:
+    restart: always
+    build:
+      context: ./slack-bot
+      dockerfile: Dockerfile

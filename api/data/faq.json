@@ -1,0 +1,592 @@
+{
+  "faq": [
+    {
+      "question": "Comment fixer le barème de remboursement des notes de frais kilométriques ?",
+      "answer": "Le barème dindemnités kilométriques indiqué par lURSSAF nindique que le montant forfaitaire maximal applicable. Autrement dit, vous êtes totalement libre dans la fixation de lindemnité kilométrique que vous souhaitez accorder, du moment que celle-ci ne dépasse pas celle indiquée par le barème. A titre purement indicatif, 20cts/km parcouru représente une rétribution plutôt réaliste. Pour fixer lindemnité kilométrique que vous souhaitez accorder aux déplacements de vos membres, il est fortement conseillé de la voter en Conseil dAdministration et de le rajouter à votre Règlement Intérieur."
+    },
+    {
+      "question": "Peut-on réaliser une note de frais si la facture nest pas au nom de la Junior ?",
+      "answer": "Il est possible de rembourser le membre concerné. Pour cela, il faudrait récupérer une attestation sur lhonneur de la part du demandeur ainsi quun extrait de son relevé de banque prouvant quil a effectué la dépense. Ce cas doit rester exceptionnel. Enfin la TVA déductible ne pourra être récupérée par la Junior."
+    },
+    {
+      "question": "Comment rectifier une erreur sur une note de frais ?",
+      "answer": "En cas derreur sur un montant ou sur les informations du bénéficiaire, vous devrez émettre une note de frais avec la mention annule et remplace. Si lerreur concerne un montant, il faudra récupérer ou rembourser la différence entre le montant payé et celui indiqué sur la nouvelle note de frais puis comptabiliser lencaissement/décaissement dans le compte de banque 512. Si les montants sont très faibles (de lordre de quelques euros), vous nêtes pas forcés de demander le remboursement. Dans ce cas, il faudra passer cela en perte : montant perdu en 658 au débit et au crédit du compte 4681 de lintervenant. De même, le membre peut ne pas vouloir le montant que vous lui devez. Il faudra comptabiliser ce gain en 758 au crédit et au débit du compte 4681 du membre."
+    },
+    {
+      "question": "Comment régulariser une erreur de paiement ?",
+      "answer": "Si vous avez trop payé le bénéficiaire de la note de frais, demandez lui un remboursement du trop perçu. Si les montants sont très faibles (quelques euros), vous pouvez faire limpasse sur le remboursement et passer cette perte dans le compte 658. A linverse, si vous ne lavez pas assez payé, il faudra faire un paiement complémentaire. En comptabilité, vous aurez simplement à saisir un décaissement/encaissement en banque du paiement reçu/émis."
+    },
+    {
+      "question": "Comment rectifier une erreur sur une facture ?",
+      "answer": "Si la facture possède une erreur sur le montant, il faudra réaliser une facture davoir ou dannulation suivant si la facture a été envoyé au tiers concerné. Si cela ne concerne pas une erreur de montant, il faudra juste envoyer une nouvelle facture annule et remplace mentionnant que la modification concerne uniquement une donnée erronée nimpactant pas les montants. Il faudra garder le même numéro dincrémentation de la facture annulée si le logiciel comptable utilisé le permet. Pour plus de détails, larticle suivant est dédié à la rectification des factures. Facturation dune étude"
+    },
+    {
+      "question": "Comment vérifier la solvabilité dun client ?",
+      "answer": "1. Si le client est un particulier ou un auto-entrepreneur, il nexiste pas de moyen fiable pour vérifier leur solvabilité. Il peut être pertinent dinsister sur la question lors du premier entretien et notamment la provenance des fonds (pour éviter que ce dernier veuille payer la Junior avec les revenus du projet). 2. Si lentreprise est immatriculée au registre du commerce et sociétés (RCS), il existe certains outils : des sites comme société.com pour vérifier que la société existe toujours et quelle nest pas en liquidation ou en redressement judiciaire. Attention, les informations ne sont pas mises à jour en temps réel. Vous pouvez demander un extrait du Kbis de la société sur Infogreffe, qui est un document du tribunal du commerce permettant dattester que lentreprise existe et si elle est en liquidation ou redressement judiciaire. Sur Infogreffe, il est également possible de demander les comptes dune société."
+    },
+    {
+      "question": "Faut-il déduire lacompte sur une facture intermédiaire ?",
+      "answer": "Lacompte doit être déduit à la fin de létude lors de la facture de solde et non sur les factures intermédiaires sauf contre indication des modalités de paiement convenues avec le client. En cas de doute, référez vous aux conditions de paiement de létude que vous devez respecter."
+    },
+    {
+      "question": "Faut-il éditer une facture dans le cas dune étude Pro-bono ?",
+      "answer": "Etant donné que la prestation nest pas facturée au client, il ny a pas besoin déditer une facture. Éventuellement, si la Junior refacture des frais au client, il faut émettre une refacturation."
+    },
+    {
+      "question": "Si un client na pas payé les factures précédentes au moment de lémission de la facture de solde, faut-il quand même déduire le montant de ces factures ou laisser le total impayé ?",
+      "answer": "Même si le client na pas payé totalement le montant des factures précédentes, il faut quand même déduire le montant des factures précédemment éditées et saisir leur montant à la ligne  déduction des factures précédentes . Cette dernière indique quil y a déjà eu une facturation et pas forcément quelles ont été payées. Si vous ne déduisez pas le montant des factures précédentes sur le solde, vous aurez des incohérences sur le montant facturé sur lensemble de létude et ainsi des soucis en comptabilité et avec la TVA."
+    },
+    {
+      "question": "Comment appliquer des pénalités de retard à un client ?",
+      "answer": "Nous vous recommandons de réfléchir à deux fois avant dappliquer des pénalités de retard. Ces dernières ne sont pas obligatoires et peuvent nuire à votre relation commerciale. Pour les appliquer, il faudra réaliser une facture précisant que la TVA nest pas applicable et indiquant les points suivants :  La référence de la facture à laquelle vous souhaitez appliquer des pénalités ;  Les coordonnées du client et de la Junior ;  Les éléments qui vous permettent de mettre en avant le calcul des pénalités : montant de la facture TTC, date démission et déchéance de la facture concernée, nombre de jours de retard, la formule utilisée : Pénalités = [montant de létude TTC] x 3 x [taux dintérêt légal en vigueur] x [nombre de jours de retard / 365] + 40 ;  Le montant des pénalités de retard à payer ; Voici le lien avec les taux dintérêt en vigueur."
+    },
+    {
+      "question": "Peut-on faire plusieurs factures dacompte sur une même étude ?",
+      "answer": "Il est possible de faire plusieurs factures dacompte sur une même étude. Néanmoins, nous vous recommandons, si vous en avez la possibilité, de faire des factures intermédiaires. Ceci afin de valider des JEH et de pouvoir les reverser aux intervenants une fois que le client a payé la facture."
+    },
+    {
+      "question": "Dans le cadre dune rupture de létude, puis-je garder lacompte du Client ?",
+      "answer": "Deux paramètres sont à prendre en compte : lavancement de létude et linitiateur de la rupture (la Junior, le client ou les deux). Ensuite, il faut appliquer ce qui est stipulé les conditions générales de la Convention dÉtude (ou Cadre) notamment larticle relatif aux conditions de paiement."
+    },
+    {
+      "question": "Peut-on délivrer des attestations de paiement pour un client ?",
+      "answer": "Il suffit denvoyer un duplicata de la facture originale en ajoutant la mention manuscrite  facture acquittée  accompagnée au même endroit de la signature de votre Trésorier."
+    },
+    {
+      "question": "Doit-on émettre une facture de solde lorsque la facturation de létude est revue suite à un avenant et que cette dernière est égale à 0€ ?",
+      "answer": "Il ny a pas besoin démettre une facture de solde nulle si lensemble de létude a déjà été facturé."
+    },
+    {
+      "question": "Comment se passe la refacturation des frais à un client ?",
+      "answer": "Vous avez deux possibilités pour la refacturation des frais : 1. Une facturation au forfait : un montant est déterminé et fixé en amont de létude pour couvrir lensemble des frais engagés. Ce montant devra apparaître dans le budget de létude et sur les factures. Attention si le montant des frais engagés dépasse le montant du forfait, la différence sera à la charge de la Junior. 2. Une facturation au réel : un remboursement des dépenses réellement engagées une fois que celles-ci ont été réalisées. Attention à récupérer les justificatifs et à avoir laccord préalable du Client pour chaque dépense engagée. Le type de refacturation devra être convenu dans les conditions générales de létude. La refacturation pourra être intégrée dans une facture détude ou dans une facture à part dédiée à cela."
+    },
+    {
+      "question": "Pour les refacturations de frais au client, sur quel montant faut-il appliquer la TVA ?",
+      "answer": "Si la Junior récupère la TVA sur les dépenses quelle engage, elle doit refacturer au client les frais engagés sur la base de leur montant hors taxes. Si la TVA nest pas récupérable, cela sera sur la base de leur montant TTC. Il faudra appliquer la TVA au taux de 20% sur ce montant. Exemples : la Junior doit refacturer un billet de train à 40€ TTC. Comme la TVA nest pas récupérable sur un billet de train, elle refacturera 48€ au client : la TVA sapplique sur le montant TTC. Par contre, si la Junior souhaite refacturer une licence payée 1 200 TTC avec 200€ de TVA quelle va déduire et récupérer, la Junior appliquera la TVA sur le montant HT. Elle va donc refacturer 1 200€ TTC."
+    },
+    {
+      "question": "Comment résoudre un problème avec Chorus Pro ?",
+      "answer": "Vérifiez dans un premier temps que vous avez bien suivi le tutoriel mis à disposition par le gouvernement pour déposer une facture. Si le problème perdure, consultez la page du Service Public dédiée aux problèmes avec Chorus Pro."
+    },
+    {
+      "question": "Comment procéder lorsque le client a payé le mauvais montant de la facture ?",
+      "answer": "Avertissez le client dans un premier temps quil sest trompé sur le montant quil vous a payé. Si le client a trop payé, remboursez lui lexcédent. Si le montant payé est inférieur à celui de la facture, demandez au client de vous payer le montant manquant. Il ny a pas de document à produire pour justifier ces flux de trésorerie. Conservez seulement les échanges avec le client à ce sujet."
+    },
+    {
+      "question": "Comment effectuer une remise à un client ?",
+      "answer": "1. Si létude est en cours, vous pouvez faire un avenant de budget pour adapter la facturation. 2. Si létude est terminée (PVRF signé), il faudra faire une facture davoir avec une ligne remise rabais ristourne (RRR) et ne pas toucher aux JEH. Concernant la comptabilisation du RRR :  montant HT au débit dans le compte 709 RRR  montant TVA au débit dans le compte 44571  montant TTC au crédit du compte 411 concerné Pour la TVA, elle est à déclarer uniquement dans le cas où vous remboursez le Client (vous réalisez un décaissement). Il faudra déclarer le montant HT du montant remboursé en ligne B5 et la TVA associée en autre TVA à déduire en ligne 21. Attention, le montant remboursé ne doit pas être déduit du montant indiqué à la ligne A1."
+    },
+    {
+      "question": "Les Juniors peuvent-elles percevoir des aides de lÉtat ?",
+      "answer": "Même si les Juniors remplissent les critères déligibilité de certaines aides, il nest pas possible den bénéficier. Elles ne correspondent pas à notre objet social et doivent bénéficier à des entreprises réellement dans le besoin."
+    },
+    {
+      "question": "Une convention de partenariat est-elle suffisante comme pièce comptable pour justifier une subvention reçue ?",
+      "answer": "Dans le cadre dune subvention non commerciale : pas de TVA, donc la convention de partenariat est suffisante pour justifier la subvention reçue. Dans la cadre dune subvention commerciale : à partir du moment où il y a de la TVA, une facture est obligatoire, il faut que la Junior émette une facture pour justifier de la subvention reçue. Annuler ou modifier une facture émise"
+    },
+    {
+      "question": "Comment gérer la TVA sur les factures davoir et dannulation ?",
+      "answer": "1. Pour les factures dannulation, il ny a rien à déclarer puisque la facture est interne à la Junior. 2. Pour les avoirs, il faut uniquement déclarer la TVA lorsquil y a un remboursement effectué au tiers. Il faudra déclarer le montant HT remboursé en ligne B5 et la TVA associée en autre TVA à déduire en ligne 21. Attention, le montant HT ne doit pas être déduit du montant indiqué à la ligne A1."
+    },
+    {
+      "question": "Comment saisir en comptabilité une facture dannulation ou davoir ?",
+      "answer": "Il faut reprendre lécriture de la facture de base puis inverser crédit et débit. Les comptes au crédit (comptes de produit et de TVA) passeront au débit et le compte de tiers passera au débit. Exemple : facture davoir de 1000€ HT sur une étude.  Compte 705/706 au débit : 1000€  Compte 44571 au débit : 200€  Compte 411 concerné au crédit : 1200€ Lors dune remise au client, il faut passer la même écriture avec comme compte de produit le 709 Remise Rabais Ristourne. Pour le remboursement, lécriture sera la suivante :  Compte 411 au débit : montant remboursé  Compte 512 au crédit : montant remboursé  Compte 44571 au crédit : montant de la TVA (montant remboursé divisé par 1,2)  Compte 4457 au débit : montant de la TVA (montant remboursé divisé par 1,2) Suivi des créances"
+    },
+    {
+      "question": "Comment faire lorsquun courrier naboutit pas suite à un problème avec ladresse du client ?",
+      "answer": "Lors dun problème avec ladresse physique du client, vous pouvez utiliser la lettre recommandée électronique pour adresser un recommandé avec AR via son adresse mail. Ceci sous réserve que le client ait donné son consentement et davoir une solution respectant certains critères. Pour plus dinformations, consultez larticle correspondant."
+    },
+    {
+      "question": "Une Junior peut-elle vendre un produit ?",
+      "answer": "La vente ne correspond pas à une prestation à caractère pédagogique, cela est par conséquent interdit. De même, il est interdit de faire du  produit générique , cest-à-dire vendre la même prestation (et donc ne la réaliser quune fois) à plusieurs clients différents."
+    },
+    {
+      "question": "Puis-je proposer à mes clients un service dhébergement web, pour les sites que jai créés ?",
+      "answer": "Les prestations de service réalisées par les Juniors doivent être délimitées dans le temps. Or, proposer ce service à un client reviendrait à commercialiser un service qui continue une fois létude (la réalisation du site web) terminée. Les Juniors ne peuvent donc pas proposer dhéberger les sites web quelles conçoivent. Pour les mêmes raisons, en dehors de la période de garantie permise par le Procès-Verbal de recettes, les activités de maintenance ne sont pas permises en Junior."
+    },
+    {
+      "question": "Puis-je faire proposer de petits services aux étudiants (photocopies, reliures) pour constituer une source de revenus complémentaires pour la Junior ?",
+      "answer": "Ce type de prestation nentre pas dans lobjet social des Juniors qui est de réaliser des prestations à caractère pédagogique, ceci est donc interdit."
+    },
+    {
+      "question": "Un intervenant peut-il également être chef de projet sur une étude ?",
+      "answer": "Rien nempêche à un intervenant dêtre également chef de projet sur une autre étude. Cependant, il est fortement déconseillé que lintervenant soit le chef de projet sur son étude afin de limiter tout risque de prêt de main dœuvre : en effet, il serait difficile de vérifier que lintervenant/chef de projet ne reçoive pas dordres directs du client hors du cahier des charges. Pour garantir la maîtrise de lœuvre et des avancées voir la question  Comment peut-on garantir la maîtrise de lœuvre ? ."
+    },
+    {
+      "question": "Lintervenant a-t-il le droit de se déplacer chez le client ?",
+      "answer": "La présence dun intervenant chez le client constitue un début de preuve de prêt de main dœuvre mais ne constitue pas en soit une preuve. Le prêt de main dœuvre est caractérisé lorsque lintervenant reçoit des directives de la part du client. Pour garantir la maîtrise de lœuvre et des avancées voir la question  Comment peut-on garantir la maîtrise de lœuvre ? ."
+    },
+    {
+      "question": "Est-il possible de réaliser un contrat de support/maintenance pour un client ?",
+      "answer": "Un contrat de support nest pas possible car cela correspond à de la maintenance et ne respecte donc pas le code de la déontologie, notamment le premier article. Celui-ci stipule que la prestation réalisée par la Junior doit être une étude, répondant à une problématique précise, limitée dans le temps et organisée suivant une méthodologie définie à lavance."
+    },
+    {
+      "question": "Dans quelles langues peut-on réaliser une traduction ?",
+      "answer": "A partir du moment où lenseignement des langues fait partie des enseignements de votre établissement et quil est sanctionné par un examen, vous pouvez réaliser une traduction dans nimporte quelle langue. Vous devez toutefois être en adéquation avec les attentes qualitatives de vos clients et le domaine doit se rapporter aux enseignements de létablissement."
+    },
+    {
+      "question": "Peut-on modifier les statuts en Assemblée Générale Ordinaire (AGO) ?",
+      "answer": "Oui en couplant lAGO avec une AGE (Assemblée Générale Extraordinaire). Cela sappelle une Assemblée Générale Mixte (AGM)."
+    },
+    {
+      "question": "Comment récupérer des documents préfectoraux manquants ?",
+      "answer": "Dans un premier temps, vérifiez si le récépissé de déclaration nest pas disponible en ligne sur votre espace sur https://www.service-public.fr/compte/documents. Si ce nest pas le cas, il va falloir contacter la préfecture qui na pas renvoyé le récépissé. Pour cela, il est conseillé dappeler directement la préfecture. Si ce nest pas concluant, il faudra envoyer un courrier recommandé avec accusé de réception pour demander lenvoi de cette pièce importante. En ultime recours, la seul solution sera de refaire une déclaration, en stipulant bien dans une lettre à la préfecture que celle-ci est en doublon car le premier récépissé na pas été reçu et que la préfecture ne répond pas malgré les relances."
+    },
+    {
+      "question": "Comment faire si ma Junior possède deux numéros SIREN ?",
+      "answer": "Il appartient à lURSSAF, en tant que Centre de Formalités des Entreprises dont vous dépendez, de corriger cette informations et den informer lINSEE. La demande doit passer directement par le site : https://www.cfe.urssaf.fr/saisiepl/, via le lien  Déclarer une formalité > Association employeur de personnel > Modifications"
+    },
+    {
+      "question": "Un étudiant apprenti/alternant peut-il intervenir sur une mission ?",
+      "answer": "Les apprentis et alternants peuvent intervenir sur les missions sils dépendent du régime général et si leur contrat les autorise à prendre part à une mission."
+    },
+    {
+      "question": "Il y a-t-il des démarches supplémentaires à faire pour quun intervenant étranger travaille en Junior ?",
+      "answer": "Non, les mêmes que pour quun étudiant soit intervenant sur une étude sont les mêmes. Les déclarations nominatives en préfecture pour les intervenants étrangers nont plus lieu dêtre depuis lAGP du CNE23."
+    },
+    {
+      "question": "Les étudiants algériens peuvent-ils prendre part aux études en tant quintervenant ?",
+      "answer": "Les étudiants algériens peuvent être intervenants en Junior depuis lAGP du CNE23."
+    },
+    {
+      "question": "Le permis de conduire peut-il être utilisé comme pièce didentité pour le dossier étudiant ?",
+      "answer": "Non, car lobjectif de la pièce didentité dans le dossier étudiant est de prouver la nationalité de létudiant, ce que le permis ne permet pas. (Lien)"
+    },
+    {
+      "question": "Les documents obligatoires pour les intervenants sont-ils les mêmes pour les membres actifs et administrateurs qui ne sont pas indemnisés ?",
+      "answer": "Non, certains documents sont nécessaires uniquement pour les étudiants qui participent aux études : les intervenants. Figurent notamment : la carte étudiant (ou certificat de scolarité), la carte vitale (ou attestation de sécurité sociale) et la carte didentité. Le bulletin dadhésion est obligatoire pour tous les membres."
+    },
+    {
+      "question": "Peut-on avoir une cotisation sous forme de droit dentrée et donc à ne payer quune fois pour toute la scolarité ?",
+      "answer": "Il est tout à fait possible de considérer ladhésion à la Junior pour toute la scolarité dun étudiant souhaitant devenir intervenant. Il suffit juste que les nouvelles modalités dadhésion soient précisées dans vos statuts ou règlement intérieur."
+    },
+    {
+      "question": "Combien de temps avant une mission un intervenant doit-il être sélectionné ?",
+      "answer": "Il est possible de sélectionner un étudiant (signature du bulletin dadhésion) peu avant le début de sa mission mais il est néanmoins conseillé de mettre en place une période de sélection qui permettra à la Junior davoir un panel détudiants pour lannée."
+    },
+    {
+      "question": "Les Juniors sont-elles des associations reconnues dintérêt général / ARUP (Associations Reconnues dUtilité Publique) ?",
+      "answer": "Non, la liste des associations concernées est disponible ici. Par définition :  Les associations concernées par ce statut présentent un caractère philanthropique, éducatif, scientifique, social, humanitaire, sportif, familial, culturel ou concourant à la mise en valeur du patrimoine artistique, la défense de lenvironnement naturel."
+    },
+    {
+      "question": "Peut-on utiliser la G-suite pour Association en Junior ?",
+      "answer": "Les Juniors étant des associations à but non lucratif, elles sont tout à fait éligibles à la G-suite pour associations."
+    },
+    {
+      "question": "Peut-on utiliser les licences Office fournies par un établissement denseignement ?",
+      "answer": "Il existe deux types de licences à distinguer :  Azure Dev Tools : interdit en Junior ;  Office 365 ProPlus qui permet aux étudiants de certains établissements de bénéficier de la suite Office (Excel, Word, PowerPoint etc.) gratuitement. Ces logiciels peuvent être utilisés en Junior dans le cadre dune étude ou pour la gestion de la Junior."
+    },
+    {
+      "question": "Peut-on utiliser des licences éducatives pour Adobe et Microsoft ?",
+      "answer": "Adobe et Microsoft ont autorisé lusage des licences éducatives en Junior. Attention : lusage de Azure Dev Tools (ex Dreamspark Premium, Microsoft Imagine ou MSDNAA) reste interdit car ces logiciels ne sont pas autorisés pour de la production."
+    },
+    {
+      "question": "Peut-on utiliser Canva en Junior ?",
+      "answer": "Canva Pro est bien disponible pour les associations à but non-lucratif, vous y êtes donc éligible. Les CGU vous autorisent à vendre ce que vous produisez sur Canva Pro, que vous soyez une association ou non, tant que cela reste dans le liste autorisée définie (article 5 du lien). Ce qui est interdit est de revendre des supports Canva comme des templates. Une limite de pixels est également fixée par Canva pour que le contenu Pro ne fuite pas. Vous pouvez donc utiliser Canva Pro ou Canva version gratuite pour vos prestations ou pour de linterne, si cela respecte les conditions précédentes. Canva Pro vous permet davoir accès à davantage de contenu mais noffre pas plus de droits de vente."
+    },
+    {
+      "question": "Est ce quune licence informatique destinée à des associations convient à des Juniors ?",
+      "answer": "Les conditions dutilisation de ce type de licence stipulent souvent que les associations exerçant leurs activités selon des modalités de gestion similaires à celles des entreprises commerciales ne peuvent utiliser ces licences. Il nest donc pas possible de sen servir dans ce cas-là. Attention : lutilisation de licences associatives pour Adobe est également interdite (contrairement aux licences éducatives Adobe)."
+    },
+    {
+      "question": "Un client peut-il nous prêter la licence dun logiciel dans le cadre dune étude ?",
+      "answer": "Tout à fait, pour cela il faut faire un prêt de licence. Vous trouverez un document type ici. La licence que le client vous prête doit autoriser une utilisation commerciale."
+    },
+    {
+      "question": "Faut-il faire un ERB pour les comptes de livret ?",
+      "answer": "LERB pour les comptes de livret nest pas une obligation. Néanmoins, nous vous conseillons den faire un par an lors du changement dannée pour vérifier quil ny a pas derreur."
+    },
+    {
+      "question": "Comment comptabiliser un virement entre comptes ?",
+      "answer": "Comptablement, il est obligatoire davoir un compte comptable unique pour chaque compte en banque que tu possèdes (par exemple, 512100 pour le premier, 512200 pour le 2ème, ...).  Si les deux comptes sont dans le même banque (donc même journal) : il faut passer X euros dun compte A vers un compte B revient à créditer le compte A de X€ et débiter le compte B dans le journal de banque à la date du virement.  Si les deux comptes ne sont pas dans la même banque (donc journal de banque différent) : il faut passer X euros dun compte A vers un compte B revient à créditer le compte A de X€ et débiter le compte dans le journal de banque A à la date de la demande de virement, et débiter le compte B de X euros et créditer le compte 58 dans le journal de banque B à la date de valeur de larrivée du virement sur le compte en banque (lu sur le relevé de banque). Tu pourras retrouver bans le book de comptabilité les modèles décritures détaillés."
+    },
+    {
+      "question": "Quelle date fait foi pour un virement (date du virement ou date deffet) ?",
+      "answer": "Il est normal davoir un décalage entre la preuve de paiement qui prend en compte la date où vous passez lordre de virement et le relevé bancaire qui spécifie la date où le virement est effectif. La présence du relevé de banque est donc utile afin de vérifier les dates de valeur. La différence entre les dates ne posera problème que si elles se trouvent sur deux mois différents, vous devrez alors en faire mention sur létat de rapprochement bancaire car lenregistrement comptable se fait à la date de passage de lordre de virement (date de votre capture décran) mais napparaitra pas dans votre relevé bancaire. Cela est dû au fait que vous considérez que votre dette est acquittée lorsque vous avez passé lordre de paiement. Cest dailleurs le cas lorsque le paiement se fait par chèque, où il peut y avoir un décalage important entre la date en comptabilité (la date du chèque) et la date du relevé bancaire (date de la remise de chèque lorsque le client encaisse ce chèque). Légalement parlant, la date de virement est celle qui sera retenue."
+    },
+    {
+      "question": "Faut-il faire un ERB pour les comptes de livret ?",
+      "answer": "LERB pour les comptes de livret nest pas une obligation. Néanmoins, nous vous conseillons den faire un par an lors du changement dannée pour vérifier quil ny a pas derreur."
+    },
+    {
+      "question": "Comment changer dExpert-Comptable ?",
+      "answer": "Pour changer dexpert comptable, il va falloir résilier la lettre de mission sauf si elle nest pas en renouvellement tacite (automatique). Pour cela, il faudra être à jour sur le règlement des honoraires et rédiger une lettre de résiliation en respectant les modalités notamment le délai de préavis prévu dans la lettre de mission. Ce dernier est généralement de 3 mois. Voici un lien vers un modèle type de lettre de résiliation. Enfin avant de résilier votre expert actuel, assurez vous davoir signé (ou presque) la lettre de mission avec votre nouvel expert. Cela évitera de se retrouver sans expert ou de se faire une frayeur."
+    },
+    {
+      "question": "Que faire en cas de retard sur la clôture comptable et la génération de la liasse fiscale ?",
+      "answer": "Vous vous exposez à déventuelles pénalités de retard par les impôts. Il faudra prévenir votre service impôts des entreprises via votre messagerie que la liasse fiscale ainsi que lIS seront réalisés en retard en précisant la raison. Par ailleurs, il faudra voir avec votre Expert-Comptable pour clôturer au plus vite votre exercice, générer la liasse fiscale et réaliser lIS. En cas de soucis, contactez le pôle Conseil via Kiwi."
+    },
+    {
+      "question": "De quoi est constitué un dossier de clôture comptable ?",
+      "answer": "Le dossier de clôture comptable (à conserver dannée en année) a pour vocation de rassembler toutes les pièces nécessaires à un expert-comptable pour quil puisse comprendre la situation dune Junior (même sil ne la connaissait pas avant) et laider dans les meilleures conditions. Cela lui permet de se concentrer sur les activités les plus intéressantes pour vous, comme le conseil. Il est donc essentiel dy regrouper toutes les informations dont il pourrait avoir besoin : la liste ci-dessous nest donc pas exhaustive, à vous de ladapter à votre Junior :  liasse fiscale, notamment Comptes Annuels, Bilan, Compte de Résultat et leurs annexes ;  tableau de suivi des cut-off (ne pas se limiter aux études) ;  tableau de suivi des dettes et des créances de la Junior ;  tableau de suivi des amortissements mis à jour (si la Junior en possède) ;  Comptabilité sauvegarder au format FEC  Balance, grand livre  Synthèse de la cloture  Tableau des OD  IS"
+    },
+    {
+      "question": "A quel taux doit-on facturer un client en DOM TOM ?",
+      "answer": "Les DOM TOM sont considérés comme faisant partie du territoire français pour lapplication de la TVA : la TVA française sapplique donc bien ici. Par contre, il y a en effet un taux de TVA (8,5%) différent de celui de la France Métropolitaine (20%). Vous trouverez les détails et les exceptions sur cet article de Kiwi Légal."
+    },
+    {
+      "question": "Comment régulariser un Bulletin de Versement faux ?",
+      "answer": "Lorsquun BV est erroné il faut appliquer la procédure suivante : 1. Émettre un nouveau BV avec la mention  Rectificatif  et les montants mis à jour. 2. Comptabiliser lécriture inverse dun BV erroné : à la manière dun avoir où vous reprenez lécriture de base en inversant crédit et débit ; 3. Comptabiliser ce BV rectificatif comme la comptabilisation normale dun BV ; 3. Récupérer ou rembourser la différence entre le montant net payé lors du premier BV et celui devant être payé indiqué sur le BV rectificatif puis comptabiliser lencaissement/décaissement dans le compte de banque 512. Si les montants sont très faibles (de lordre de quelques euros), vous nêtes pas forcés de demander le remboursement. Dans ce cas, il faudra passer cela en perte : montant perdu en 658 au débit et au crédit du compte 468 de lintervenant. De même, lintervenant peut ne pas vouloir le montant que vous lui devez. Il faudra comptabiliser ce gain en 758 au crédit et au débit du compte 468 de lintervenant. 4. Enfin, si vous avez déjà déclaré vos cotisations sociales sur le premier BV, il ne faut pas déclarer le second BV mais régulariser cela lors de votre Tableau Récapitulatif (TR). Dans le cas où votre premier BV date de lannée civile précédente et quil nest donc plus possible de régulariser cela avec le TR, il vous faudra réaliser un TR rectificatif."
+    },
+    {
+      "question": "Quel SMIC horaire brut et quels taux doit-on utiliser quand le BV nest pas émis la même année que le récapitulatif de mission ?",
+      "answer": "Lors de lémission dun BV on utilise le SMIC et les taux en vigueur à la date de lémission. Cest à dire quune étude débutée en 2022 mais dont le BV sera émis en 2023 utilisera le SMIC horaire brut et les taux de 2023 pour le calcul des cotisations."
+    },
+    {
+      "question": "Doit-on changer la base Urssaf si le SMIC change en cours dannée ?",
+      "answer": "La base Urssaf ne sera pas modifiée en cas de changement de SMIC en cours dannée. En effet, comme le stipule lArrêté ministériel de 1988, le SMIC à prendre en compte pour le calcul de la base Urssaf et donc des cotisations est celui du 1er janvier de lannée considérée."
+    },
+    {
+      "question": "Peut-on rétribuer un intervenant en plusieurs fois ?",
+      "answer": "Sous réserve que les conditions pour émettre un BV soient respectées, si lintervenant a travaillé sur plusieurs phases ayant fait lobjet de factures intermédiaires, vous pourrez émettre plusieurs bulletins de versement reversant les JEH validés pour les différentes phases et le payer en plusieurs fois."
+    },
+    {
+      "question": "Peut-on rétribuer un intervenant même sil nest plus étudiant de lécole?",
+      "answer": "Oui, tout ce qui compte est quil ait eu le statut détudiant durant la durée de validité de son RM (Récapitulatif de Mission)."
+    },
+    {
+      "question": "Dans le cadre du paiement dun intervenant par chèque, doit-on attendre que le chèque soit encaissé pour déclarer les cotisations sociales dans un BRC ?",
+      "answer": "La date à prendre en compte pour la déclaration des cotisations sociales à lUrssaf est la date démission et non de paiement du bulletin de versement."
+    },
+    {
+      "question": "Est-ce que les intervenants doivent déclarer les honoraires perçus pour une mission ?",
+      "answer": "Les intervenants doivent déclarer leurs revenus perçus via une mission dans la catégorie des bénéfices non commerciaux (BNC). Le détail et un tutoriel sont à retrouver dans cet article."
+    },
+    {
+      "question": "Existe-t-il un plafond pour la rétribution dun intervenant ?",
+      "answer": "La rétribution brute maximale en Junior pour un intervenant est de 75% du SMIC sur une année civile soit 15 308€ pour lannée 2023. Ceci pour éviter une requalification en salariat. De plus, un intervenant ne peut pas toucher plus de 300€ brut pour chaque JEH reversé (depuis le 01/01/2023). En cas de non respect de cette limitation, les cotisations sociales ne seront plus calculées sur notre assiette forfaitaire mais sur la base de 70% de la rétribution brute."
+    },
+    {
+      "question": "Peut-on émettre un BV pour un intervenant ne disposant pas de numéro de sécurité sociale ou disposant dun numéro temporaire ?",
+      "answer": "Si vous faites intervenir des étudiants étrangers, il est possible que ceux-ci ne disposent pas encore de numéro de sécurité sociale ou bien que ce dernier soit uniquement temporaire. Ce numéro se caractérise par le fait de commencer non pas par un 1 ou un 2 mais plutôt par un 7 ou un 8. Si létudiant vient dun pays membre de lUnion Européenne : Il est possible que létudiant conserve lassurance maladie de son pays. Il faut alors créer fictivement un numéro de Sécurité Sociale, qui sera utile pour lémission des BV et la déclaration de la DADS. Pour le créer, il faut en commencer par un 1 ou 2 en fonction du sexe de la personne puis en continuer avec les deux derniers chiffres de lannée de naissance, les deux chiffres du mois de naissance et enfin compléter avec des 9 jusquà obtenir une suite de 13 chiffres. Si létudiant vient dun pays hors de lUnion Européenne : Ce dernier doit normalement déjà avoir entamé des démarches auprès de la CPAM en arrivant en France. Il faudra utiliser ce numéro, ou bien créer un numéro fictif comme décrit ci-dessus. En cas de doute, contactez le pôle Conseil via Kiwi X."
+    },
+    {
+      "question": "Comment régulariser une erreur de paiement ?",
+      "answer": "Si vous avez trop payé un intervenant, demandez lui un remboursement du trop perçu. Si les montants sont très faibles (quelques euros), vous pouvez faire limpasse sur le remboursement et passer cette perte dans le compte 658. A linverse, si vous ne lavez pas assez payé, il faudra faire un paiement complémentaire. En comptabilité, vous aurez simplement à saisir un décaissement/encaissement en banque du paiement reçu/émis."
+    },
+    {
+      "question": "Quest ce que la procédure de surveillance des signataires ?",
+      "answer": "Lorsquune personne a les droits en banque (généralement président et trésorier), il faut mettre une sécurité supplémentaire si elle est amenée à toucher de largent via un bulletin de versement ou une note de frais. Pour le BV, vous pouvez ajouter une étape de validation supplémentaire avant émission de ce dernier. Déclarer ses revenus en Junior"
+    },
+    {
+      "question": "Les Juniors sont-elles concernés par le prélèvement à la source ?",
+      "answer": "Les sommes perçues par les intervenants sont considérées au plan fiscal comme des honoraires et non des salaires. Elles sont à déclarer en Bénéfices Non Commerciaux ne relèvent donc pas du Prélèvement à la Source. En cas de relance sur labsence de déclaration de PAS, voici la procédure à suivre : 1. Envoyer via Kiwi > Contacter la CNJE tout courrier reçu par les finances publiques (DGFIP) au sujet du PAS ; 2. Répondre aux finances publiques (au service mentionné sur le courrier) sans délai par courrier recommandé avec accusé de réception à laide du modèle disponible dans la partie Ressources de cet article que vous prendrez soin de personnaliser en fonction de votre situation ; 3. Nous informer via Kiwi > Contacter la CNJE de toute suite donnée par la DGFIP. Les régimes de TVA"
+    },
+    {
+      "question": "Comment se passe la gestion de la TVA lorsque je passe du régime réel simplifié au régime réel normal ?",
+      "answer": "Si la Junior clôture au 30 juin, elle doit envoyer la déclaration annuelle pour le 30 septembre. Avec le passage au régime réel normal, sa première déclaration mensuelle de TVA doit être remplie pour le mois de septembre (avant le 24 octobre). Elle fera apparaître les montants de TVA collectée et de TVA déductible de juillet à septembre. De même, pour un exercice qui se clôture au 31/12, sa première déclaration doit être remplie pour le mois de mai. Elle fera apparaître les montants de TVA collectée et de TVA déductible de janvier à mai."
+    },
+    {
+      "question": "Lorsque je quitte le régime en franchise de base, à partir de quelle date faut-il facturer la TVA sur les ventes et déduire la TVA sur les achats ?",
+      "answer": "A partir du 1er jour du mois au titre duquel la demande a été formulée pour passer au nouveau régime. Si vous avez demandé à passer au régime réel normal au 1er janvier 2023, la TVA sera déductible sur les achats postérieurs à cette date. De même, il faudra facturer la TVA pour toute facture de vente émise après le 01/01/2023."
+    },
+    {
+      "question": "Que faire en cas derreur sur une déclaration de TVA : trop déclaré ou oubli de TVA déductible ou collectée ?",
+      "answer": "a. Trop déclaré de TVA déductible : lors de la prochaine déclaration, remplir la ligne 15  TVA antérieurement déduite à reverser  avec la TVA déduite en trop . Il faudra expliquer lerreur commise dans le champ réservé à la correspondance de la déclaration ; b. Oubli de TVA déductible : lors de la prochaine déclaration, il faut inscrire le montant de TVA oublié dans la ligne 21  autre TVA à déduire  ; c. Trop déclaré de TVA collectée : lors de prochaine déclaration, il faut inscrire le montant de collectée en trop dans la ligne 21  autre TVA à déduire  d. Oubli de TVA collectée : lors de la prochaine déclaration, il faut inscrire le montant de collectée oublié avec la TVA collectée du mois à la ligne 8. DAS2"
+    },
+    {
+      "question": "Comment régulariser une erreur sur la DAS2 ?",
+      "answer": "1. Dans le cas dun oubli dun honoraire mais pas dune erreur de saisie, il faudra réaliser une DADS complémentaire en ajoutant les honoraires oubliés. 2. Pour rectifier toute autre erreur, il faudra réaliser une DADS annule et remplace. En cas de difficulté ou pour toute autre erreur, contactez le pôle Conseil via Kiwi : contacter la CNJE."
+    },
+    {
+      "question": "Comment se matérialise une DAS2 à néant sur le compte rendu de saisie de déclaration ?",
+      "answer": "La DAS2 si elle est à néant, napparaîtra sur le compte rendu de saisie. Vous aurez seulement la déclaration de DADS sans la partie à la fin des honoraires puisquelle est vide."
+    },
+    {
+      "question": "Comment régulariser une erreur sur ma déclaration ?",
+      "answer": "Il faudra réaliser une nouvelle déclaration sur votre compte impôts.gouv. Si suite à cette erreur vous devez de largent à létat, un paiement complémentaire devra être effectué. A linverse si létat vous doit de largent, ce dernier vous reversera le trop perçu."
+    },
+    {
+      "question": "Que faire en cas de retard pour la déclaration de lIS dû à la clôture comptable pas encore terminée ?",
+      "answer": "Vous vous exposez à déventuelles pénalités de retard par les impôts. Il faudra prévenir votre service impôts des entreprises via votre messagerie que lIS sera réalisé en retard en précisant la raison. Par ailleurs, il faudra voir avec votre Expert-Comptable pour clôturer au plus vite votre exercice et réaliser lIS. En cas de soucis, contactez le pôle Conseil via Kiwi."
+    },
+    {
+      "question": "Ma demande dexonération a été rejetée que faire ?",
+      "answer": "Il est fréquent quune demande soit rejetée. En effet, chaque Service Impôts des Entreprises au travers de ses conseillers aura son interprétation qui pourra conduire ou non à une exonération. Dans le cas dun rejet ou dune absence de réponse positive avant le 15 décembre, vous devrez vous acquitter de la CFE. Vous pourrez retenter une demande dexonération lannée suivante. Jai reçu un avis dimposition alors que mon chiffre daffaires N-1 est inférieur à 5000€ Il se peut quil y ait eu une erreur, un oubli du côté du Service Impôts des Entreprises (SIE). Dans ce cas, envoyez leur un courrier recommandé avec Accusé de Réception. Celui-ci devra expliquer votre demande de remboursement avec des preuves du chiffre daffaires en joignant votre liasse fiscale. Cotisation sur la Valeur Ajoutée des Entreprises (CVAE)"
+    },
+    {
+      "question": "Comment se passe la gestion de la TVA lorsque je passe du régime réel simplifié au régime réel normal ?",
+      "answer": "Si la durée de lexercice comptable est supérieure ou inférieure à 12 mois, le chiffre daffaires est revu de sorte quil corresponde à une année pleine. En cas dabsence de clôture dexercice durant lannée dimposition, il sera pris en compte le chiffre daffaires réalisé et la valeur ajoutée produite entre le premier jour suivant la fin de la période retenue pour le calcul de la CVAE de lannée précédente et le 31 décembre de lannée dimposition. Le chiffre daffaires devra le cas échéant être annualisé pour correspondre à une année pleine. Pour ce cas de figure, rapprochez vous de votre expert comptable si vous êtes concernés par la CVAE."
+    },
+    {
+      "question": "Comment est calculée la CVAE si je clôture plusieurs exercices au cours dune même année ?",
+      "answer": "La CVAE est établie à partir du chiffre daffaires réalisé et de la valeur ajoutée produite au cours des exercices clos, quelles que soient leurs durées respectives. Il conviendra également de corriger le chiffre daffaires. Pour ce cas de figure, rapprochez vous de votre expert comptable si vous êtes concernés par la CVAE. Bordereau Récapitulatif des Cotisations (BRC)"
+    },
+    {
+      "question": "Dans le cadre du paiement dun intervenant par chèque, doit-on attendre que le chèque soit encaissé pour déclarer les cotisations sociales dans un BRC ?",
+      "answer": "La date dexigibilité des cotisations sociales est la date de lémission du BV et non la date de paiement."
+    },
+    {
+      "question": "Comment régulariser une erreur sur un BRC ?",
+      "answer": "Dans le cas dune erreur deffectif, il ny aura rien à faire. Cette erreur est peu problématique. Le seul effectif ayant un réel impact est celui présent sur le Tableau Récapitulatif. Dans le cas dune erreur du montant payé à lUrssaf (erreur sur un taux, un montant déclaré), cette dernière sera régularisée lors du Tableau Récapitulatif prévu à cet effet."
+    },
+    {
+      "question": "Peut-on déclarer les cotisations sociales via le Chèque Emploi Associatif ?",
+      "answer": "Si vous êtes au Chèque Emploi Associatif, il va falloir le quitter pour ouvrir un compte Urssaf. Un tutoriel est mis à votre disposition pour réaliser ce changement. En cas de difficulté, contactez le pôle Conseil via Kiwi : contacter la CNJE."
+    },
+    {
+      "question": "Que faire en cas de réception dun avis de contrôle Urssaf ?",
+      "answer": "Contactez le pôle Conseil via Kiwi : contacter la CNJE qui vous accompagnera dans la préparation et réalisation du contrôle."
+    },
+    {
+      "question": "Est-il possible demander une remise sur des pénalités ou majorations reçues de la part de lUrssaf ?",
+      "answer": "Il faut en premier lieu identifier le motif des pénalités/majorations. Vous pourrez ensuite faire une demande de remise gracieuse des pénalités par recommandé avec accusé de réception à votre centre Urssaf. Celle-ci doit rester exceptionnelle et uniquement si la Junior peut prouver quelle est de bonne foi. Tableau Récapitulatif (TR)"
+    },
+    {
+      "question": "Comment déclarer le TR en cas de changement de taux durant lannée ?",
+      "answer": "Si jamais un taux change durant lannée, il faudra séparer votre TR : la partie A en deux parties. La première du premier janvier jusquà la date de modification du taux, et lautre partie de la date de changement du taux au 31 décembre."
+    },
+    {
+      "question": "Comment régulariser une erreur sur un TR ?",
+      "answer": "Il va falloir réaliser une déclaration manuscrite via le modèle suivant en reprenant le tutoriel .Il faudra envoyer la déclaration corrective scannée sur lespace de messagerie de votre compte URSSAF en leur indiquant quil sagit dune régularisation du TR de lannée xxxx. Si vous rencontrez un problème, contactez le pôle Conseil via Kiwi : contacter la CNJE."
+    },
+    {
+      "question": "A quoi correspond et comment calculer leffectif global ?",
+      "answer": "Leffectif global correspond au nombre de Récapitulatifs de Mission (RM) en cours au 31/12 de lannée de déclaration. Pour le calculer, il est préférable davoir un tableau de suivi des RM qui servira aussi pour le taux douverture."
+    },
+    {
+      "question": "Quel SMIC horaire brut et quels taux doit-on utiliser pour le TR ?",
+      "answer": "Il faut prendre les taux et le SMIC du premier janvier de lannée sur laquelle porte la déclaration : lannée civile écoulée."
+    },
+    {
+      "question": "Est-il possible demander une remise sur des pénalités ou majorations reçues de la part de lUrssaf ?",
+      "answer": "Il faut en premier lieu identifier le motif des pénalités/majorations. Vous pourrez ensuite faire une demande de remise gracieuse des pénalités par recommandé avec accusé de réception à votre centre Urssaf. Celle-ci doit rester exceptionnelle et uniquement si la Junior peut prouver quelle est de bonne foi. Déclaration Annuelle des Données Sociales (DADS)"
+    },
+    {
+      "question": "Comment régulariser une erreur sur la DADS ?",
+      "answer": "1. Dans le cas dun oubli dun étudiant/honoraire mais pas dune erreur de saisie, il faudra réaliser une DADS complémentaire en ajoutant les étudiants/honoraires oubliés. 2. Pour rectifier nimporte quelles données de la déclaration, sauf la correction du numéro de sécurité sociale, il faudra réaliser une DADS annule et remplace. 3. Si votre déclaration nest plus accessible, il faudra contacter la CARSAT."
+    },
+    {
+      "question": "Que faire si je nai pas accès au compte-rendu de la déclaration ?",
+      "answer": "Il faut contacter le CTDS (Centre de Transmission des Données Sociales) qui correspond à la CARSAT pour récupérer le compte-rendu."
+    },
+    {
+      "question": "Comment justifier le montant dun JEH au client ?",
+      "answer": "Il peut sembler difficile dexpliquer à un client que nous facturons la journée étude homme entre 80 et 450 euros HT. Le discours quil faut avoir est quil sagit uniquement dune unité de facturation et nullement dune unité temporelle. Le client doit donc prendre le budget dune phase ou de létude dans sa globalité."
+    },
+    {
+      "question": "Comment se protéger des clients qui  volent  le cahier des charges ?",
+      "answer": "Il peut arriver que lors des discussions avec le client, celles-ci naboutissent pas alors que les réalisateurs ont passé du temps à travailler sur le cahier des charges. Il est difficile de se protéger, cependant il y a deux actions possibles mais qui ne sont pas forcément optimales :  faire uniquement un devis  faire une étude de faisabilité en amont (une pré-étude) (Voir la question  La conception dun cahier des charges peut-elle correspondre à une étude ?  de la FAQ partie Cadre Légal) Attention : si vous avez des preuves que le client a utilisé votre cahier des charges et sen est servi pour autre chose, sollicitez-nous pour faire respecter vos droits : cest le rôle de la mention : Tous droits de reproductions réservés ."
+    },
+    {
+      "question": "Le président/trésorier est actuellement absent et nest pas disponible pour signer les documents dune étude. Comment faire ?",
+      "answer": "Il est possible deffectuer une délégation de signature. Voir cette page de Kiwi Légal."
+    },
+    {
+      "question": "Le client souhaite ajouter des pénalités de retard en cas de livraisons tardives du livrables. Comment faire ?",
+      "answer": "Accepter les pénalités de retard est déconseillé, cependant si cela vous permet de signer votre étude vous pouvez accepter mais en faisant attention à plusieurs points :  un plafond sur ces pénalités est fixé (par exemple le budget de létude) ;  il est conseillé de prévoir ces pénalités dans le budget pour éviter un risque financier trop important. En cas de doute, Contactez la CNJE."
+    },
+    {
+      "question": "Le Président a un Récapitulatif de Mission (RM) à son nom, doit-il signer pour les 2 parties ?",
+      "answer": "Il est conseillé dajouter un troisième signataire (le trésorier par exemple) pour le contrôle interne."
+    },
+    {
+      "question": "Une signature scannée a-t-elle une valeur légale ?",
+      "answer": "En droit civil, dont dépendent les Juniors, les documents scannés nont aucune valeur légale. Par conséquent, les signatures doivent être des originales."
+    },
+    {
+      "question": "Est-il possible décrire la date de signature à la main sur les documents contractuels ?",
+      "answer": "Oui, aucun problème."
+    },
+    {
+      "question": "Comment déterminer le nombre dexemplaires et le lieu de signature pour un document signé électroniquement ?",
+      "answer": "Dans le cas dune signature électronique conforme, les mentions suivantes peuvent être retirées :  Nombre dexemplaires : les copies sont illimités.  Lieu de signature : les signatures peuvent être faites de nimporte où. Le lieu est utile dans le cas dune signature papier pour renforcer la valeur du document car le client devrait prouver quil nétait pas présent, en plus de sa signature.  Date de signature : une signature électronique valide la précise automatiquement."
+    },
+    {
+      "question": "Le client peut-il breveter le livrable produit par les intervenants ?",
+      "answer": "Larticle 12 des CGE précise que lintégralité des droits patrimoniaux sur les travaux est cédée de manière exclusive et définitive au Client après paiement. Cela signifie que le Client peut exploiter, modifier et revendiquer la paternité économique des résultats. Un brevet étant un droit patrimonial, le Client pourrait donc en théorie en faire la demande. Néanmoins, vos intervenant conservent normalement leur droit moral, ce qui implique quils peuvent toujours revendiquer la paternité de linvention (être reconnus comme inventeurs), et sopposer à des modifications qui dénatureraient leurs travails. En pratique, cela signifie que si le client dépose un brevet, les étudiants devront être mentionnés comme inventeurs (sauf renoncement volontaire de leur part). Pour éviter les litiges sur ce sujet, votre client peut leur proposer de signer un accord écrit qui récapitule les droits et devoir de chacune des parties. En cas de doute ou de situation complexe, faites un ticket au Pôle Conseil. Avant létude"
+    },
+    {
+      "question": "Comment éviter les clients douteux ?",
+      "answer": "Signer une étude avec un client douteux peut rapidement vous conduire en litige. Voici quelques précautions dusage à respecter pour les éviter :  Vérifiez que lentreprise existe et renseignez-vous sur la solvabilité de votre client. Utilisez ses numéros didentification (SIREN) pour vérifier que lentreprise cliente existe. Certains sites (societe.com, infogreffe, ...) vous donnent des renseignements sur la santé financière de lentreprise qui peuvent vous permettre dévaluer les risques de signer une étude avec elle. Une simple recherche internet vous permet de remarquer un éventuel placement en redressement judiciaire. Attention lorsque vous traitez avec un particulier : il nexiste aucun moyen fiable de vérifier sa solvabilité !  En cas de doute, protégez-vous. Par exemple, vous pouvez augmenter le pourcentage de lacompte. Vous pouvez aussi choisir dimposer des PVRI accompagnés de FI fréquents au cours de létude, et ne pas poursuivre létude si les factures tardent à être réglées."
+    },
+    {
+      "question": "Peut-on traduire un livre protégé par le droit dauteur ?",
+      "answer": "Lœuvre originale étant protégée par la propriété intellectuelle, il vous faudra lautorisation écrite de lauteur pour pouvoir la traduire. Ainsi, lauteur original va pouvoir émettre des réserves, pour limiter la dénaturisation de son œuvre originale. Pour plus de précisions légales, voici le texte de loi se référant à cette interrogation : (lien). Laccord de lauteur est donc indispensable. Après traduction, lœuvre traduite est considérée comme distincte de lœuvre initiale."
+    },
+    {
+      "question": "Comment peut-on vérifier la solvabilité dun client ?",
+      "answer": "Concernant un particulier, il est très difficile de vérifier sa solvabilité. Pour un professionnel, societe.com fournit déjà un bon aperçu de létat de santé de lentreprise. Pour aller plus loin vous pouvez demander les comptes de lentreprise sur ce site (payant mais prix raisonnable)."
+    },
+    {
+      "question": "Peut-on ajouter une référence à des articles du code civil dans une clause de confidentialité ?",
+      "answer": "Aucun problème, ces articles (notamment 1149 et 1342) font foi par défaut dans le cadre de toute clause de confidentialité. Il sagit donc uniquement dune précision. Signature et début détude (côté client)"
+    },
+    {
+      "question": "Peut-on signer une Convention dEtude plusieurs jours avant le début effectif de la mission ?",
+      "answer": "Tout à fait, pour cela il suffit de changer la date de début de mission de larticle  délai  de la Convention dEtude."
+    },
+    {
+      "question": "Un client refuse de signer la Convention dEtude (CE) à cause de lobligation de moyens, que faire ?",
+      "answer": "Effectivement certains clients peuvent être récalcitrants à accepter lobligation de moyens et souhaitent une obligation de résultat à la place. La Junior bénéficie dune obligation de moyens, cest-à-dire quelle sengage à tout mettre en œuvre pour réaliser le résultat de létude. Si elle a tout mis en œuvre mais na pu parvenir au résultat, sa responsabilité nest donc pas engagée. Si le client refuse cette dernière, il vous est possible de souscrire une obligation de résultat, et donc vous engage à livrer le résultat attendu par le client (sauf en cas de force majeure), mais vous serez dans une position plus défavorable en cas de conflit avec le client. Voir cet article de Kiwi Légal."
+    },
+    {
+      "question": "Comment faire sil y a plusieurs clients sur une même étude ?",
+      "answer": "Si les deux clients souhaitent signer les documents, il faudra faire une convention tri-partite. Par conséquent, les deux clients signeront chacun des documents contractuels de létude. Attention à bien préciser les rôles, droits et obligations de chacun des clients (par exemple celui qui doit payer, celui qui possède la propriété intellectuelle de létude, celui qui valide les documents, etc...) dans votre Convention dEtude."
+    },
+    {
+      "question": "Un client, une institution publique, refuse la juridiction dinstance comme juridiction compétente. Est-il possible de mettre tribunal administratif ?",
+      "answer": "Seul le tribunal administratif est compétent pour les litiges avec ladministration. Donc dans le cas où un client dune Junior est une institution publique, le tribunal compétent sera le tribunal administratif. Il sagit uniquement dune exception pour les clients qui sont des institutions publiques."
+    },
+    {
+      "question": "Comment faire dans le cas où le signataire dune entreprise change en cours détude ?",
+      "answer": "Dans ce cas, le nom de la personne morale marqué sur les documents va permettre de prouver que la structure est la même. Cependant, pour éviter des problèmes de responsabilité du signataire, il faut sassurer que ce dernier possède bien le pouvoir de signature, il est conseillé pour cela de récupérer un PV dAssemblée Générale, cependant cela nest pas indispensable."
+    },
+    {
+      "question": "Est-il possible de faire une étude au nom dune entreprise en cours de création ?",
+      "answer": "Si la société du client est en cours de formation (i.e. que la volonté de création a été matérialisée par des actes, comme des démarches administratives, louverture dun compte en banque, ...), la jurisprudence commerciale reconnait quil est possible de souscrire au nom de cette future société, en engageant, durant la période de formation, la responsabilité des personnes signataires. Pour cela, il vous faudra indiquer sur vos documents détude (et notamment la Convention dEtude), dans la définition des parties et la page de signature :  au nom et pour le compte de la société en formation  (en indiquant le nom de la société et son futur siège social) . Si ceci nest pas possible pour le client (par exemple parce que le futur siège social nest pas encore connu ou que les démarches de création nont pas encore été commencées), il vous faudra alors contracter avec vos clients en tant que personne physiques : une clause de cession pourra alors être insérée dans votre Convention dEtude pour prévoir les modalités de cession des droits et obligations de votre client physique à sa société, une fois celle-ci créée."
+    },
+    {
+      "question": "Un grand groupe/institution publique refuse lacompte. Que peut-on faire ?",
+      "answer": "Un acompte nest pas une obligation même si cela reste fortement recommandé. Dans des cas très fréquents, les institutions publiques et les grands groupes refusent les acomptes. Avec ce type de client le risque de non paiement reste très faible. Cependant il faut être vigilant à ce que létude se passe bien."
+    },
+    {
+      "question": "Les clients des Juniors peuvent-ils être éligibles au CIR (Crédit Impôt Recherche) ?",
+      "answer": "Les études R&D confiées à des Juniors peuvent potentiellement être éligibles au Crédit Impôt Recherche. Cependant la démarche administrative est excessivement lourde. Tout dabord, consultez le BOI-BIC-RICI-10-10-20-30 du BOFIP pour avoir toutes les informations (données à partir du paragraphe 120). Les Juniors ne faisant pas de R&D en interne, elles ne peuvent bénéficier du système  de base  du CIR. Elles doivent être considérées comme structure adossée à un établissement denseignement supérieur. Les conditions minimales nécessaires sont :  Etablissement niveau master minimum ;  Convention signée avec létablissement denseignement (conformément à larticle L533-2 du Code de la Recherche);  La Junior doit être agrée par le ministère chargé de la recherche (conformément au d bis du II de larticle 244 quater B du Code Général des Impôts)."
+    },
+    {
+      "question": "Une Junior peut-elle travailler pour un client qui est un particulier ?",
+      "answer": "Aucun problème, en dehors des prestations de formations, qui ne peuvent pas être réalisées a des particuliers ou pour le compte dorganismes de formation."
+    },
+    {
+      "question": "Un client, une institution publique, refuse nos documents légaux, comment faire ?",
+      "answer": "La plupart des institutions publiques vont refuser de signer les documents des Juniors. Cela est normal et ne doit pas vous empêcher de signer cette étude. Consultez dans un premier temps cet article afin dêtre attentifs aux mentions clefs. Nhésitez pas à contacter le pôle Conseil de la CNJE pour avoir un avis sur ces documents."
+    },
+    {
+      "question": "Quelles sont les spécificités à ajouter sur la Convention dEtude (CE) pour une étude réalisée avec un client étranger ?",
+      "answer": "Deux spécificités :Vérifier sil devra payer la TVA (voir cet article Kiwi Légal) ; Préciser dans larticle litige que le droit compétent est le droit français."
+    },
+    {
+      "question": "Dans le cadre dune sous-traitance entre Juniors, peut-on payer la Junior sous-traitée en labsence de paiement du client ?",
+      "answer": "Oui, voir cet article de Kiwi Légal."
+    },
+    {
+      "question": "Quelles parties dune étude une Junior sous-traitante doit-elle conserver ?",
+      "answer": "La Junior doit au moins conserver la partie de létude comportant la phase à caractère pédagogique. De plus la maîtrise du projet doit être conservée, donc une sous-traitance de 95% de létude est difficilement envisageable."
+    },
+    {
+      "question": "Est-il possible de sous-traiter à une entreprise/association qui ne fait pas partie du mouvement ?",
+      "answer": "Cela est tout à fait possible, la sous-traitance sera facturée en frais au client final. Attention cependant : la charte de déontologie vous demande de privilégier les structures du mouvement pour les sous-traitances. Par conséquent, il vous est demandé de faire appel à une structure extérieure uniquement dans le cas où la compétence recherchée ne se trouve pas dans le mouvement. Début détude (côté intervenant)"
+    },
+    {
+      "question": "Quelles sont les limites haute et basse de rétribution pour un JEH ?",
+      "answer": "La limite haute correspond au montant du JEH moins la part Junior des cotisations sociales, cela permet de ne pas être en perte sur ce JEH. La limite basse correspond au montant des cotisations part étudiant pour éviter que létudiant se retrouve avec une rétribution nette négative."
+    },
+    {
+      "question": "Comment augmenter le pourcentage de rétribution dun étudiant ?",
+      "answer": "Les Juniors sont entièrement libres sur ce pourcentage, qui peut même varier dune étude à lautre, sous réserve de respecter vos propres Statuts, règlement intérieur et de ne pas dépasser le seuil fixé de 300 € par JEH en 2024."
+    },
+    {
+      "question": "Un étudiant peut-il avoir deux récapitulatifs de mission (RM) sur une seule et même étude ?",
+      "answer": "Cela ne pose pas de problème. Cependant, cela a peu de sens si ces deux RM coïncident temporellement."
+    },
+    {
+      "question": "Peut-on rétribuer un intervenant même sil nest plus étudiant de lécole ?",
+      "answer": "Oui, tout ce qui compte est quil ait eu le statut détudiant durant la durée de validité de son RM (Récapitulatif de Mission)."
+    },
+    {
+      "question": "Un intervenant dont le bulletin dadhésion a été signé après le début dune mission peut-il intervenir sur cette dernière ?",
+      "answer": "La référence nest pas la date de début de létude mais la date de début du Récapitulatif de Mission (RM) qui doit être postérieure à la date de signature du bulletin dadhésion. Si la date du RM est après la date de signature du bulletin dadhésion alors lintervenant pourra intervenir sur létude. Validation intermédiaire"
+    },
+    {
+      "question": "Le Procès-Verbal de Recette Intermédiaire (PVRI) est-il lié à une facture intermédiaire et inversement ?",
+      "answer": "On ne peut pas émettre une facture intermédiaire en labsence dun PVRI correspondant. Cependant, il est tout à fait possible davoir un PVRI sans facture intermédiaire même si cela nest pas recommandé pour éviter un risque de non paiement."
+    },
+    {
+      "question": "Est-il possible davoir des phases conditionnelles (au résultat intermédiaire de létude par exemple) dans une CE ?",
+      "answer": "Cela nest absolument pas conseillé et présenterait un risque trop important. Utiliser la Convention Cadre est la meilleure solution dans ce cas : il est possible de faire un bon de commande pour la première partie de létude, puis dattendre les résultats de cette partie de létude pour émettre le second bon de commande. Modifications en cours détude"
+    },
+    {
+      "question": "Est-on obligé dattendre la date de fin théorique pour clôturer létude ?",
+      "answer": "Absolument pas, au contraire si votre étude sest terminée plus tôt que prévu, vous pouvez faire signer le PVRF (Procès-Verbal de Recette Finale)."
+    },
+    {
+      "question": "En cas davenant au Récapitulatif de Mission (RM), quelle référence doit-on mettre sur le BV ?",
+      "answer": "La référence du RM initial ainsi que la référence du dernier avenant au RM pour permettre de conserver une cohérence, entre le nombre de JEH par exemple."
+    },
+    {
+      "question": "La date dun avenant à la CE doit elle correspondre à la phase que lon souhaite modifier ?",
+      "answer": "Non, cela est préférable mais tant que la date de lavenant est avant la date de fin détude cela ne pose pas de problème tant que cela été fait en informant le client en temps et en heure."
+    },
+    {
+      "question": "Dans le cas dun avenant allongeant le délai de létude, doit-on faire un avenant au Récapitulatif de Mission (RM) également ?",
+      "answer": "Si les étudiants vont continuer à travailler sur létude durant cette période, il faudra effectivement faire des avenants aux RM."
+    },
+    {
+      "question": "Mon client ne veut pas signer le PVRF, que faire ?",
+      "answer": "Il faut dans un premier temps comprendre le motif du refus :  Si le livrable nest pas assez qualitatif et ne respecte pas totalement le cahier des charges, il faudra corriger les points non conformes de ce dernier.  Si au moment où vous lui remettez le livrable, le client émet des réserves (ne pouvant pas lire tout le livrable) et quil refuse de signer, il est possible de linscrire dans le PVRF. Il faudra ensuite lui faire signer un nouveau document indiquant que les réserves ont été levées. Si le problème persiste, contactez le pôle Conseil via le module ticket sir Kiwi X."
+    },
+    {
+      "question": "Est-il possible de prolonger la durée de garantie en cours détude ou après signature du Procès-Verbal de Recette Finale (PVRF) ?",
+      "answer": "En cours détude, si le client souhaite prolonger la durée de la garantie, cela est possible en effectuant un avenant. Attention cependant à ne pas avoir une durée de garantie trop longue pour ne pas tomber dans la maintenance. Après signature du PVRF, il est impossible de modifier la durée de garantie."
+    },
+    {
+      "question": "Comment fonctionnent les pénalités pour retard de paiement ?",
+      "answer": "Nous vous recommandons de réfléchir à deux fois avant dappliquer des pénalités de retard. Ces dernières ne sont pas obligatoires et peuvent nuire à votre relation commerciale. Pour les appliquer, il faudra réaliser une facture précisant que la TVA nest pas applicable et indiquant les points suivants :  La référence de la facture à laquelle vous souhaitez appliquer des pénalités ;  Les coordonnées du client et de la Junior ;  Les éléments qui vous permettent de mettre en avant le calcul des pénalités : montant de la facture TTC, date démission et déchéance de la facture concernée, nombre de jours de retard, la formule utilisée : Pénalités = [montant de létude TTC] x 3 x [taux dintérêt légal en vigueur] x [nombre de jours de retard / 365] + 40 ;  Le montant des pénalités de retard à payer ; Voici le lien avec les taux dintérêt en vigueur."
+    },
+    {
+      "question": "Peut-on contraindre lintervenant à assurer la garantie ?",
+      "answer": "Et sil quitte létablissement avant la fin de la période ? De manière générale, il est conseillé de sélectionner des intervenants qui conservent leur statut détudiant durant la phase de garantie. Cependant il est possible dajouter un article dans le règlement intérieur prévoyant des sanctions contre lintervenant, même si la marge de manœuvre est faible. Si ce dernier a quitté lécole, il faudra trouver un autre étudiant qui accepterait de faire les modifications. En dernier recours, il faudra trouver un étudiant qui accepte de faire bénévolement les modifications demandées par le client. Pour le remercier il peut-être envisager de lui rembourser des frais professionnels (par exemple une place en CR/CN, un repas daffaire avec un client/prospect, des cartes de visite personnalisées ...). Il nest pas conseillé dattendre la fin de la garantie avant de rétribuerlintervenant (notamment si la garantie est de 3 mois) car cela serait mal perçu."
+    },
+    {
+      "question": "Comment rembourser un client, par exemple la facture dacompte ?",
+      "answer": "Il faudra tout dabord effectuer un avenant de rupture à la CC qui précisera ce qui va être remboursé, ainsi que les phases qui seront éventuellement validées. Enfin il faudra émettre une facture davoir, qui correspond à une facture classique avec la mention  facture davoir , il ny aura pas de mention de JEH dessus. En cas de remboursement sur une facture de solde, la facture davoir ne correspondra pas à des JEH mais à un pourcentage de létude."
+    },
+    {
+      "question": "Un client ayant signé un Procès-Verbal de Recette Finale (PVRF) na toujours pas payé le solde. Comment faire ?",
+      "answer": "Tout dabord contactez le pôle Conseil via Contactez la CNJE pour que lon vous accompagne ! Il faudra en général effectuer un processus de mise en demeure qui correspond à lenvoi dune lettre de relance suivi de quelques semaines après dune lettre de mise en demeure, toutes deux envoyés en lettre recommandée avec accusé de réception."
+    },
+    {
+      "question": "Peut-on faire une remise, une  ristourne  à un client ?",
+      "answer": "Trois possibilités qui dépendent de lavancement de létude : 1. Létude est encore en cours, cest à dire que le PVRF nest pas encore signé. Un avenant à la CE peut donc être réalisé, il faudra y préciser lensemble des JEH qui va être impacté par cet avenant et bien préciser le montant final des prestations et des frais. Ensuite, si vous ne modifiez pas votre marge, il faudra faire un ARM (Avenant au RM) afin de diminuer la rétribution de(s) (l)intervenant(s). 2. Si létude est terminée, il nest plus possible de faire un avenant à la CE. Cependant, il est possible de faire une réduction commerciale globale, pour cela, il faudra émettre une facture davoir (différente de la facture de solde). Une facture davoir doit juste comporter lentête :  Facture davoir  et ne doit pas mentionner de JEH dessus. 3. Vous pouvez proposer au client une remise sil se réengage sur une étude avec vous."
+    },
+    {
+      "question": "Comment faire dans le cas dun client dont lentreprise est en faillite et qui na pas payé le solde de létude ?",
+      "answer": "Tout dabord il faudra envoyer une lettre recommandée avec AR (Accusé de Réception) afin de prouver que vous avez relancé le client. Ensuite, il faut se renseigner exactement sur létat de lentreprise : redressement judiciaire ou liquidation. Dans tous les cas, il faudra se rapprocher du liquidateur ou de ladministrateur judiciaire afin de lui expliquer limportance qua cette étude pour votre Junior. Il faudra insister sur les points suivants :  Association à vocation pédagogique afin de favoriser linsertion professionnelle des étudiants ;  Paiement des intervenant conditionné au paiement du client par le statut dérogatoire ;  Montant de létude important face à votre CA. Perdre ce montant serait donc fortement dommageable pour vous ; Dans le cas où létude était en cours, il faudra établir un pourcentage davancement et tenter la même procédure. Il faut savoir que les créances fournisseurs sont parmi les dernières dans la liste de priorité. Comptablement, la créance client devra être transférée dans un compte de créances douteuses pour marquer léventualité de son non recouvrement. Vous pouvez également déprécier la créance si vous pensez quune partie seulement sera payée par le client. Enfin, quand il est sûr que vous ne pourrez pas récupérer la créance, il faut passer une perte pour créance irrécouvrable. Votre expert comptable peut vous assister dans cette procédure ou vous pouvez poser votre question sur Contacter la CNJE."
+    },
+    {
+      "question": "Dans le cas dune rupture et dune conservation de lacompte par la Junior, comment faire correspondre lacompte à des phases ?",
+      "answer": "Il faut effectivement faire correspondre lacompte à des phases, notamment pour connaître le nombre de JEH réalisés. Il faudra se rapprocher le plus possible du montant de lacompte (en restant en dessous) puis compléter la différence avec des frais. Cela ne pose pas de problème si les frais sont supérieurs aux frais initialement prévus. De plus une facture de solde devra être émise (même si cette dernière est à 0) pour valider les phases et donc les JEH associés."
+    },
+    {
+      "question": "Un client nous demande notre attestation de responsabilité civile, comment se la procurer ?",
+      "answer": "Lattestation MAIF est disponible sur votre espace Kiwi X. Si vous ne la retrouvez pas, vous pouvez la demander en envoyant un mail à tresorier@cnje.org."
+    },
+    {
+      "question": "Un intervenant est-il couvert dans le cadre dun déplacement par une assurance ?",
+      "answer": "Tout à fait lassurance MAIF couvre lintervenant dans ses déplacements en responsabilité civile dont le risque accident."
+    },
+    {
+      "question": "Est-il possible davoir des phases à 0 JEH/offertes ?",
+      "answer": "Oui, il est tout à fait possible doffrir une phase. Ne facturant pas de JEH, la phase ne doit pas permettre de rétribuer un intervenant. Attention cependant, il est impossible doffrir un JEH ou de facturer un JEH à 0€. Vous ne pouvez donc pas avoir de JEH  offert  ou  à 0€  dans une phase."
+    },
+    {
+      "question": "Quel montant de frais mettre dans les documents de début détude dans le cas où ceux-ci ne peuvent être estimés ?",
+      "answer": "Dans la Convention Client, larticle budget du document type de la CNJE contient cette phrase  Les autres frais engagés pour la réalisation de cette étude ainsi que les frais de téléphone et de déplacements sont à la charge du Client. Ces autres frais seront refacturés au réel sur présentation des justificatifs. . Si cette phrase est présente, il est par conséquent possible de facturer les frais au réel au client. Si le client souhaite fixer un montant maximum de frais, cela est possible, il faudra le préciser dans cette phrase."
+    },
+    {
+      "question": "Est-il possible rétribuer les étudiants avant paiement du client ?",
+      "answer": "Pour pouvoir procéder à la rétribution des intervenants, le Procès-Verbal de Recette doit être signé et le paiement du client doit avoir été effectué. La rétribution des intervenants reste subordonnée au paiement du client dans les récapitulatifs de mission. En cas de problème, nhésitez pas à contacter le Pôle Conseil en ouvrant un ticket via votre espace Kiwi X."
+    },
+    {
+      "question": "Qu'est-ce que le Comité RSE ?",
+      "answer": "Composé d'alumni du Mouvement, il a pour rôle de développer la Responsabilité Sociétale des Entreprises (RSE) à l'échelle du Mouvement en accompagnant les Juniors, en sensibilisant son écosystème et en faisant émerger une démarche d'engagement collective. Il assure ainsi la montée en compétences RSE du Mouvement, aussi bien au moyen de formations et ateliers en congrès ou autres événements, que de webinaires, et en centralisant les connaissances."
+    },
+    {
+      "question": "Combien de membres compte le Comité ?",
+      "answer": "Le Comité compte au moins 4 membres sur un mandat d'un an. Les postes sont la Coordination, la Formation, la Communication et l'Accompagnement."
+    },
+    {
+      "question": "Est-ce que le Comité est un pôle de la CNJE ?",
+      "answer": "Non, le Comité RSE et la CNJE sont deux entités bien distinctes, avec des missions différentes. Au service des Juniors, ces dernières collaborent toutefois régulièrement pour contribuer de concert au rayonnement du Mouvement."
+    },
+    {
+      "question": "Y a-t-il des Junior-Entrepreneurs au Comité ?",
+      "answer": "Aucun Junior-Entrepreneur ne fait partie du Comité, tous les membres ont terminé leur(s) mandat(s) en Junior. Néanmoins, il est possible pour les Junior-Entrepreneurs de contribuer aux activités du Comité en tant que chargé•e de mission temporaire."
+    },
+    {
+      "question": "Est-ce que le Comité peut m'aider à lancer une démarche RSE dans ma Junior ?",
+      "answer": "Oui. En tant que référent RSE du Mouvement, le Comité peut vous aider à mettre en place une telle démarche dans votre Junior même s'il n'y en a pas encore. L'accompagnement sur mesure vous permettra d'avoir les clefs pour mener à bien votre projet."
+    }
+  ]
+}

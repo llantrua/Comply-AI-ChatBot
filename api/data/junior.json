@@ -1,0 +1,372 @@
+{
+  "junior_entreprises": [
+    {
+      "nom": "ETIC INSA Technologies",
+      "ecole": "INSA Lyon",
+      "ville": "Villeurbanne",
+      "region": "Auvergne-Rhône-Alpes",
+      "site_web": "https://www.etic-insa.com",
+      "annee_creation": 1981,
+      "type_ecole": "Ingénieur",
+      "domaines": ["Ingénierie", "Numérique", "Électronique", "Génie civil", "Informatique"],
+      "services": ["Développement informatique", "Études techniques" ]
+    },
+    {
+      "nom": "GEM Junior Conseil",
+      "ecole": "Grenoble École de Management",
+      "ville": "Grenoble",
+      "region": "Auvergne-Rhône-Alpes",
+      "site_web": "https://www.gemjuniorconseil.com",
+      "annee_creation": 1984,
+      "type_ecole": "Commerce",
+      "domaines": ["Marketing", "Stratégie", "Études de marché", "RSE"],
+      "services": ["Études de marché", "Benchmarks", "Plans de communication" ]
+    },
+    {
+      "nom": "Junior ISEP",
+      "ecole": "IS Institut Supérieur d'Électronique de Paris (ISEP)",
+      "ville": "Paris",
+      "region": "Île-de-France",
+      "site_web": "https://www.juniorisep.com",
+      "annee_creation": 1984,
+      "type_ecole": "Ingénieur",
+      "domaines": ["Informatique", "Électronique", "Développement web", "IA", "Cybersécurité"],
+      "services": ["Développement logiciel", "IoT", "Cybersécurité"]
+    },
+    {
+      "nom": "HEC Junior Conseil",
+      "ecole": "HEC Paris",
+      "ville": "Jouy-en-Josas",
+      "region": "Île-de-France",
+      "site_web": "https://www.hec-junior-conseil.fr",
+      "annee_creation": 1971,
+      "type_ecole": "Commerce",
+      "domaines": ["Stratégie", "Marketing", "Finance", "RSE"],
+      "services": ["Business plan", "Études de marché", "Audits"]
+    },
+    {
+      "nom": "Junior Essec Conseil",
+      "ecole": "ESSEC",
+      "ville": "Cergy",
+      "region": "Île-de-France", 
+      "site_web": "https://junioressec.com/",
+      "annee_creation": "1967",    
+      "type_ecole" : "commerce",
+      "domaines": ["Stratégie", "Marketing", "Finance", "RSE"],
+      "services": ["Business plan", "Études de marché", "Audits"]
+    },
+    {
+      "nom": "Dauphine Junior Consulting",
+      "ecole": "Université Paris Dauphine-PSL",
+      "ville": "Paris",
+      "region": "Île-de-France",
+      "site_web": "https://dauphine-junior-consulting.com",
+      "annee_creation": 1983,
+      "type_ecole": "Université",
+      "domaines": ["Finance", "Marketing", "Management", "Data"],
+      "services": ["Études marketing", "Analyses financières"]
+    },
+    {
+      "nom": "Devinci Junior",
+      "ecole": "ESILV / EMLV / IIM (Pôle Léonard de Vinci)",
+      "ville": "Courbevoie, Nantes",
+      "region": "Île-de-France, Bretagne",
+      "site_web": "https://devincijunior.fr",
+      "annee_creation": 2017,
+      "type_ecole": "Ingénieur/Management/Digital",
+      "domaines": ["Data", "IA", "Développement web", "Cybersécurité", "IoT"],
+      "services": ["Applications data", "Audit cybersécurité", "Développement logiciel", "Jeux Vidéos"]
+    },
+    {
+      "nom": "EPF Projets",
+      "ecole": "EPF École d'Ingénieurs",
+      "ville": "Sceaux, Troyes, Montpellier",
+      "region": "Île-de-France, Grand Est, Occitanie",
+      "site_web": "https://epfprojets.com",
+      "annee_creation": 1997,
+      "type_ecole": "Ingénieur",
+      "domaines": ["Ingénierie généraliste", "Environnement", "Énergie", "Informatique"],
+      "services": ["Études techniques", "Gestion de projet"]
+    },
+    {
+      "nom": "NSigma",
+      "ecole": "Grenoble INP Ensimag",
+      "ville": "Grenoble",
+      "region": "Auvergne-Rhône-Alpes",
+      "site_web": "https://nsigma.fr",
+      "annee_creation": 2006,
+      "type_ecole": "Ingénieur",
+      "domaines": ["Informatique", "Data Science", "Statistiques", "Finance quantitative"],
+      "services": ["Études statistiques", "Modélisation", "Développement logiciel"]
+    },
+    {
+      "nom": "ESCadrille",
+      "ecole": "Toulouse Business School",
+      "ville": "Toulouse, Paris, Barcelone, Casablanca",
+      "region": "Occitanie, Île-de-France, International",
+      "site_web": "https://www.escadrille.org",
+      "annee_creation": 1978,
+      "type_ecole": "Commerce",
+      "domaines": ["Marketing", "Études de marché", "Stratégie"],
+      "services": ["Études de marché", "Business plan"]
+    },
+    {
+      "nom": "Junior PEP",
+      "ecole": "École des Ponts ParisTech",
+      "ville": "Champs-sur-Marne",
+      "region": "Île-de-France",
+      "site_web": "https://junior-pep.fr",
+      "annee_creation": 1979,
+      "type_ecole": "Ingénieur",
+      "domaines": ["Génie civil", "BTP", "Environnement", "Transport"],
+      "services": ["Études techniques", "Ingénierie civil"]
+    },
+    {
+      "nom": "Telecom Etude",
+      "ecole": "Télécom Paris",
+      "ville": "Palaiseau",
+      "region": "Île-de-France",
+      "site_web": "https://telecom-etude.fr",
+      "annee_creation": 1984,
+      "type_ecole": "Ingénieur",
+      "domaines": ["Télécommunications", "Réseaux", "IA", "Cybersécurité"],
+      "services": ["Solutions télécom", "Développement logiciel"]
+    },
+    {
+      "nom": "IESEG Junior Conseil",
+      "ecole": "IESEG School of Management",
+      "ville": "Lille, Paris",
+      "region": "Hauts-de-France, Île-de-France",
+      "site_web": "https://iesegjuniorconseil.com",
+      "annee_creation": 2017,
+      "type_ecole": "Commerce/Management",
+      "domaines": ["Marketing", "Stratégie", "Finance", "International"],
+      "services": ["Études de marché", "Conseil stratégique"]
+    },
+    {
+      "nom": "SKEMA Conseil",
+      "ecole": "SKEMA Business School",
+      "ville": "Lille, Paris, Sophia-Antipolis",
+      "region": "Hauts-de-France, Île-de-France, PACA",
+      "site_web": "https://skema-conseil.com",
+      "annee_creation": 2009,
+      "type_ecole": "Commerce",
+      "domaines": ["Marketing", "Stratégie", "International"],
+      "services": ["Études marketing", "Plans communication"]
+    },
+    {
+      "nom": "Junior Chimie Lyon",
+      "ecole": "CPE Lyon / ENSIC",
+      "ville": "Villeurbanne, Nancy",
+      "region": "Auvergne-Rhône-Alpes, Grand Est",
+      "site_web": "https://juniorchimielyon.fr",
+      "annee_creation": 1995,
+      "type_ecole": "Ingénieur/Chimie",
+      "domaines": ["Chimie", "Procédés", "Environnement", "Matériaux"],
+      "services": ["Procédés chimiques", "Étude matières", "Innovation matériaux"]
+    },
+    {
+      "nom": "ASE AgroParisTech",
+      "ecole": "AgroParisTech",
+      "ville": "Paris, Nancy, Clermont-Ferrand, Montpellier",
+      "region": "Île-de-France, Grand Est, Auvergne-Rhône-Alpes, Occitanie",
+      "site_web": "https://ase-agroparistech.fr",
+      "annee_creation": 1985,
+      "type_ecole": "Ingénieur",
+      "domaines": ["Agronomie", "Environnement", "Agroalimentaire"],
+      "services": ["Conseil agricole", "Études environnementales"]
+    },
+    {
+      "nom": "JEECE",
+      "ecole": "ECE Paris",
+      "ville": "Paris, Lyon, Bordeaux",
+      "region": "Île-de-France, Auvergne-Rhône-Alpes, Nouvelle-Aquitaine",
+      "site_web": "https://jeece.fr",
+      "annee_creation": 2001,
+      "type_ecole": "Ingénieur",
+      "domaines": ["Électronique", "Informatique", "Énergie"],
+      "services": ["Développement logiciel", "Système embarqué"]
+    },
+    {
+      "nom": "Marketing Méditerranée",
+      "ecole": "KEDGE Business School",
+      "ville": "Marseille, Bordeaux, Paris, Toulon",
+      "region": "Provence-Alpes-Côte d'Azur, Nouvelle-Aquitaine, Île-de-France",
+      "site_web": "https://marketing-mediterranee.com",
+      "annee_creation": 1985,
+      "type_ecole": "Commerce",
+      "domaines": ["Marketing", "Digital", "Tourisme"],
+      "services": ["Marketing territorial", "Études touristiques"]
+    },
+    {
+      "nom": "Audencia Junior Conseil",
+      "ecole": "Audencia",
+      "ville": "Nantes, Paris",
+      "region": "Pays de la Loire, Île-de-France",
+      "site_web": "https://audenciajuniorconseil.com",
+      "annee_creation": 1979,
+      "type_ecole": "Commerce",
+      "domaines": ["Marketing", "Stratégie", "Finance"],
+      "services": ["Conseil stratégique", "Études de marché"]
+    },
+    {
+      "nom": "Junior CentraleSupélec Conseil",
+      "ecole": "CentraleSupélec",
+      "ville": "Gif-sur-Yvette, Metz, Rennes",
+      "region": "Île-de-France, Grand Est, Bretagne",
+      "site_web": "https://jcs-conseil.com",
+      "annee_creation": 2017,
+      "type_ecole": "Ingénieur",
+      "domaines": ["Ingénierie généraliste", "Numérique", "Énergie"],
+      "services": ["Conseil technique", "Innovation"]
+    },
+    {
+      "nom": "ESSCA Junior Conseil",
+      "ecole": "ESSCA",
+      "ville": "Angers, Paris, Aix-en-Provence, Bordeaux, Lyon, Strasbourg",
+      "region": "Pays de la Loire, Île-de-France, PACA, Nouvelle-Aquitaine, Auvergne-Rhône-Alpes, Grand Est",
+      "site_web": "https://esscajuniorconseil.com",
+      "annee_creation": 2007,
+      "type_ecole": "Commerce",
+      "domaines": ["Management", "Marketing", "Finance"],
+      "services": ["Conseil en management", "Études commerciales"]
+    },
+    {
+      "nom": "N7 Consulting",
+      "ecole": "INP-ENSEEIHT (N7)",
+      "ville": "Toulouse",
+      "region": "Occitanie",
+      "site_web": "https://n7consulting.fr",
+      "annee_creation": 1986,
+      "type_ecole": "Ingénieur",
+      "domaines": ["Informatique", "Électronique", "Énergie"],
+      "services": ["Ingénierie système", "Développement logiciel"]
+    },
+    {
+      "nom": "AMJE",
+      "ecole": "Arts et Métiers Institut de Technologie",
+      "ville": "Aix-en-Provence, Angers, Bordeaux, Châlons-en-Champagne, Cluny, Lille, Metz, Paris",
+      "region": "Multi-régions",
+      "site_web": "https://www.amje.fr",
+      "annee_creation": 1909,
+      "type_ecole": "Ingénieur",
+      "domaines": ["Mécanique", "Énergie", "Innovation", "Procédés"],
+      "services": ["Conseil généraliste", "Études techniques"]
+    },
+    {
+      "nom": "Junior UTC",
+      "ecole": "Université de Technologie de Compiègne",
+      "ville": "Compiègne",
+      "region": "Hauts-de-France",
+      "site_web": "https://juniorutc.fr",
+      "annee_creation": 1980,
+      "type_ecole": "Ingénieur",
+      "domaines": ["Ingénierie", "Informatique"],
+      "services": ["Innovation technologique", "R&D"]
+    },
+    {
+      "nom": "Jump Mines",
+      "ecole": "Mines Paris PSL",
+      "ville": "Paris",
+      "region": "Île-de-France",
+      "site_web": "https://jump-mines.fr",
+      "annee_creation": 2013,
+      "type_ecole": "Ingénieur",
+      "domaines": ["Minier", "Matériaux", "Énergie", "Data"],
+      "services": ["Conseil industriel", "Innovation matériaux"]
+    },
+    {
+      "nom": "ENS Junior Consultants",
+      "ecole": "ENS Paris-Saclay",
+      "ville": "Gif-sur-Yvette",
+      "region": "Île-de-France",
+      "site_web": "https://ens-junior-consultants.fr",
+      "annee_creation": 2016,
+      "type_ecole": "Université",
+      "domaines": ["Sciences", "Numérique", "Mathématiques"],
+      "services": ["Études scientifiques", "Conseil data"]
+    },
+    {
+      "nom": "Centrale Lyon Conseil",
+      "ecole": "Centrale Lyon",
+      "ville": "Écully",
+      "region": "Auvergne-Rhône-Alpes",
+      "site_web": "https://www.centrale-lyon-conseil.fr",
+      "annee_creation": 2006,
+      "type_ecole": "Ingénieur",
+      "domaines": ["Ingénierie généraliste", "Numérique", "Mécanique"],
+      "services": ["Innovation", "Conseil technique"]
+    },
+    {
+      "nom": "ProVéto Junior Conseil",
+      "ecole": "EnvA : Ecole Nationale vétérinaire d'Alfort",
+      "ville": "Maison Alfort",
+      "region": "Auvergne-Rhône-Alpes",
+      "site_web": "https://provetojuniorconseil.com",
+      "annee_creation": 2016,
+      "type_ecole": "Vétérinaire",
+      "domaines": ["Santé animale", "Agroalimentaire"],
+      "services": ["Conseil vétérinaire", "Sécurité alimentaire"]
+    },
+    {
+      "nom": "SEPEFREI",
+      "ecole": "EFREI",
+      "ville": "Villejuif, Bordeaux",
+      "region": "Île-de-France, Nouvelle-Aquitaine",
+      "site_web": "https://sepefrei.fr",
+      "annee_creation": 1984,
+      "type_ecole": "Ingénieur",
+      "domaines": ["Informatique", "Digital", "Data"],
+      "services": ["Développement logiciel", "Conseil digital"]
+    },
+    {
+      "nom": "Junior Conseil TAKER",
+      "ecole": "Epitech",
+      "ville": "Paris, lyon",
+      "region": "Île-de-France, Auvergne-Rhône-Alpes",
+      "site_web": "https://juniorconseiltaker.fr",
+      "annee_creation": 2018,
+      "type_ecole": "Informatique",
+      "domaines": ["Développement web", "Cybersécurité", "DevOps"],
+      "services": ["Développement logiciel", "Audit sécurité"]
+    },
+    {
+      "nom": "Synerghetic",
+      "ecole": "HETIC",
+      "ville": "Montreuil",
+      "region": "Île-de-France",
+      "site_web": "https://www.synerghetic.net",
+      "annee_creation": 2011,
+      "type_ecole": "Digital",
+      "domaines": ["Web", "UI/UX", "Informatique", "Stratégie digitale"],
+      "services": ["Développement web", "Conseil digital"]
+    },
+    {
+      "nom": "PsyInsight",
+      "ecole": "École de Psychologues Praticiens (EPP Paris)",
+      "ville": "Paris",
+      "region": "Île-de-France",
+      "site_web": "https://www.psyinsight.com",
+      "annee_creation": 2016,
+      "type_ecole": "Psychologie",
+      "domaines": ["Psychologie", "Ressources humaines", "Bien-être"],
+      "services": ["Conseil RH", "Formation"]
+    }
+  ],
+  "metadata": {
+    "total_je": 40,
+    "date_creation": "2025-01-27",
+    "regions_couvertes": [
+      "Île-de-France", "Auvergne-Rhône-Alpes", "Occitanie", "Bretagne",
+      "Hauts-de-France", "Provence-Alpes-Côte d'Azur", "Pays de la Loire",
+      "Nouvelle-Aquitaine", "Grand Est", "Normandie", "International"
+    ],
+    "types_ecoles": [
+      "Ingénieur", "Commerce", "Université", "Numérique", "Management", "Vétérinaire", "Psychologie", "Art/Culture"
+    ],
+    "domaines_cles": [
+      "Informatique", "Data Science", "Ingénierie", "Marketing/Communication",
+      "Finance/Gestion", "Stratégie", "Santé", "Chimie", "BTP", "Numérique"
+    ]
+  }
+}
