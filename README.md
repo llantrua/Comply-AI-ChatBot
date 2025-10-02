@@ -1,7 +1,7 @@
 <h1>Comply</h1>
 
 <div style="text-align: center;">
-  <img src="./image/comply.png" alt="Comply Logo" width="200"/>
+  <img src="./image/comply.png" alt="Comply Logo" width="400"/>
   <p><em>Développé par le Pôle SI & Performance - Mandat 2025-2026 Sepefrei</em></p>
   
   <h1>Documentation Technique</h1>
@@ -38,7 +38,7 @@ La valeur ajoutée de Comply réside dans sa capacité à comprendre le contexte
 
 Comply a été développé par le **Pôle Système d'Information & Performance de SEPEFREI** durant le mandat 2025-2026.
 
-### Lucas Lantrua - RAG Engineering, Data Pipeline & Indexation
+### [Lucas Lantrua](https://github.com/zeus-black) - RAG Engineering, Data Pipeline & Indexation
 
 Lucas a conçu et développé l'ensemble du système RAG (Retrieval-Augmented Generation) qui constitue le cœur de Comply. Ses contributions incluent :
 
@@ -49,7 +49,7 @@ Lucas a conçu et développé l'ensemble du système RAG (Retrieval-Augmented Ge
 - **Enrichissement métadonnées** : Développement du système d'extraction automatique de tags, catégories et priorités pour chaque chunk.
 - **Construction de l'index** : Implémentation des index multi-niveaux (by_type, by_category, by_source) et du système de persistance Pickle.
 
-### Matteo Bonnet - Backend & API Development
+### [Matteo Bonnet](https://github.com/matteobonnet) - Backend & API Development
 
 Matteo a développé l'ensemble de la couche API et de l'orchestration qui permet d'exposer le système RAG comme un service. Ses contributions incluent :
 
@@ -59,7 +59,7 @@ Matteo a développé l'ensemble de la couche API et de l'orchestration qui perme
 - **Gestion de la persistance** : Développement du système de chargement de l'index en mémoire au démarrage et du mécanisme de réindexation sans downtime.
 - **Optimisation des performances** : Profiling et optimisation de la latence (passage de 2.8s à 1.8s en moyenne). Mise en place du monitoring.
 
-### Victoria Breuling - Product Management & Strategic Vision
+### [Victoria Breuling](https://github.com/victoriabreuling) - Product Management & Strategic Vision
 
 Victoria a défini la vision produit et piloté les aspects stratégiques et organisationnels du projet. Ses contributions incluent :
 
