@@ -1,11 +1,12 @@
+<h1>Comply</h1>
+
 <div style="text-align: center;">
-  <img src="./image/logo.png" alt="Comply Logo" width="200"/>
-  <p><em>Développé par le Pôle SI & Performance - Mandat 2025-2026 SEPEFREI</em></p>
+  <img src="./image/comply.png" alt="Comply Logo" width="200"/>
+  <p><em>Développé par le Pôle SI & Performance - Mandat 2025-2026 Sepefrei</em></p>
   
-  <h1>Comply - Documentation Technique</h1>
+  <h1>Documentation Technique</h1>
   
-  <p><strong>Assistant IA de conformité et knowledge management pour Junior-Entreprises</strong><br/>
-  Recherche vectorielle + Claude AI (Anthropic)</p>
+  <p><strong>Assistant IA de conformité et knowledge management pour Junior-Entreprises</strong></p>
 </div>
 
 ---
@@ -272,7 +273,7 @@ sequenceDiagram
     PromptEngine-->>API: Prompt complet (1400 tokens)
     
     API->>Claude: POST /v1/messages
-    Note over Claude: Claude Sonnet 4.5<br/>Temperature: 0.3<br/>Max tokens: 2000
+    Note over Claude: Claude Sonnet 3.5<br/>Temperature: 0.3<br/>Max tokens: 2000
     Claude-->>API: Réponse générée (480 tokens)
     
     API->>Formatter: Post-processing
@@ -306,7 +307,7 @@ sequenceDiagram
 
 ### LLM & IA
 
-**Anthropic Claude API** est le service LLM cloud utilisé. Le modèle **Claude Sonnet 4.5** (`claude-sonnet-4-5-20250929`) a été choisi pour :
+**Anthropic Claude API** est le service LLM cloud utilisé. Le modèle **Claude Sonnet 3.5** (`claude-sonnet-4-5-20250929`) a été choisi pour :
 - Son adhérence excellente aux instructions complexes (meilleur que GPT-4)
 - Son context window de 200k tokens permettant d'injecter 10-15 chunks riches
 - Sa faible tendance aux hallucinations (critique en contexte juridique)
