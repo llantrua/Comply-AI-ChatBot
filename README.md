@@ -1,7 +1,7 @@
 <h1>Comply</h1>
 
 <div style="text-align: center;">
-  <img src="./image/comply.png" alt="Comply Logo" width="400"/>
+  <img src="./image/comply.png" alt="Comply Logo" width="100%"/>
   <p><em>Développé par le Pôle SI & Performance - Mandat 2025-2026 Sepefrei</em></p>
   
   <h1>Documentation Technique</h1>
