@@ -59,7 +59,7 @@ Matteo a développé l'ensemble de la couche API et de l'orchestration qui perme
 - **Gestion de la persistance** : Développement du système de chargement de l'index en mémoire au démarrage et du mécanisme de réindexation sans downtime.
 - **Optimisation des performances** : Profiling et optimisation de la latence (passage de 2.8s à 1.8s en moyenne). Mise en place du monitoring.
 
-### [Victoria Breuling](https://github.com/victoriabreuling) - Product Management & Strategic Vision
+### [Victoria Breuling](https://github.com/Victoriabrl) - Product Management & Strategic Vision
 
 Victoria a défini la vision produit et piloté les aspects stratégiques et organisationnels du projet. Ses contributions incluent :
 
