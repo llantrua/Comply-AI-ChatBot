@@ -217,7 +217,7 @@ Cette couche orchestre le pipeline complet de traitement :
 4. **Sélection des meilleurs chunks** : Extraction des 10 chunks les plus pertinents après boosting
 5. **Construction du contexte** : Agrégation des chunks avec leurs métadonnées dans un format structuré
 6. **Prompt engineering** : Génération d'un prompt spécialisé selon le type détecté avec injection du contexte
-7. **Appel Claude** : Requête à l'API Anthropic (Claude Sonnet 4.5) pour générer la réponse
+7. **Appel Claude** : Requête à l'API Anthropic (Claude Sonnet 3.5) pour générer la réponse
 8. **Formatage** : Structuration de la réponse avec extraction des sources citées et génération de questions liées
 
 **Layer 7 : Bot Slack**
@@ -289,7 +289,7 @@ sequenceDiagram
 
 ### LLM & IA
 
-**Anthropic Claude API** : Claude Sonnet 4.5 pour sa qualité de réponse, son adhérence aux instructions, et son faible taux d'hallucinations.
+**Anthropic Claude API** : Claude Sonnet 3.5 pour sa qualité de réponse, son adhérence aux instructions, et son faible taux d'hallucinations.
 
 ### Scraping & Data
 
