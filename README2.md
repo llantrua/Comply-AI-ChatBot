@@ -735,7 +735,7 @@ Email : victoria.breuling@sepefrei.fr
 ### Support
 
 **Pour les Junior-Entreprises utilisatrices** :
-- Slack : Channel #comply-support
+- Slack : Lucas Lantrua sur le canal Slack CNJE
 - Email : rsi@sepefrei.fr
 
 ---
@@ -744,7 +744,7 @@ Email : victoria.breuling@sepefrei.fr
 
 **Comply** est un projet open-source sous licence MIT.
 
-Développé par **SEPEFREI - Confédération Nationale des Junior-Entreprises**.
+Développé par **SEPEFREI - Junior entreprise de l'école d'ingénieur EFREI**.
 
 Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
