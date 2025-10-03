@@ -1,11 +1,12 @@
+<h1>Comply - Your JE Compliance Assistant</h1>
+
 <div style="text-align: center;">
-  <img src="./image/comply.png" alt="Comply Logo" width="400"/>
-  <p><em>Développé par le Pôle SI & Performance - Mandat 2025-2026 SEPEFREI</em></p>
-  
-  <h1>Comply - Documentation Technique</h1>
-  
-  <p><strong>Assistant IA de conformité et knowledge management pour Junior-Entreprises</strong><br/>
-  Recherche vectorielle + Claude AI (Anthropic)</p>
+  <img src="./image/comply.png" alt="Comply Logo" width="100%"/>
+  <p><em>Développé par le Pôle SI & Performance - Mandat 2025-2026 Sepefrei</em></p>
+
+  <h1>Documentation Technique</h1>
+
+  <p><strong>Assistant IA de conformité et knowledge management pour Junior-Entreprises</strong></p>
 </div>
 
 ---
@@ -21,6 +22,7 @@
 7. [Accès et Utilisation](#accès-et-utilisation)
 8. [Infrastructure Recommandée](#infrastructure-recommandée)
 9. [Roadmap](#roadmap)
+10. [Installation et déploiement](#installation)
 
 ---
 
@@ -106,58 +108,64 @@ Au-delà des cas d'usage spécifiques, Comply génère un gain de productivité 
 Comply repose sur une architecture pipeline en 6 couches qui transforme des données brutes en réponses intelligentes accessibles via Slack.
 
 ```mermaid
-flowchart LR
-    subgraph Sources["📥 SOURCES"]
+flowchart TD
+    subgraph Sources["SOURCES DE DONNÉES"]
         S1[Kiwi Legal]
         S2[Kiwi RSE]
         S3[Kiwi FAQ]
         S4[Base JE]
     end
-
-    subgraph Scraping["🔄 SCRAPING"]
-        SC[Selenium Scripts]
+    
+    subgraph Scraping["SCRAPING"]
+        SC[Scripts Selenium]
     end
-
-    subgraph Process["⚙️ TRAITEMENT"]
-        P1[Nettoyage]
-        P2[Chunking]
-        P3[Enrichissement]
+    
+    subgraph Process["TRAITEMENT"]
+        P1[Nettoyage HTML/Text]
+        P2[Chunking Documents]
+        P3[Enrichissement Métadonnées]
     end
-
-    subgraph Index["🧮 INDEXATION"]
+    
+    subgraph Index["INDEXATION VECTORIELLE"]
         I1[TF-IDF + SVD]
-        I2[Index Pickle]
+        I2[Sauvegarde Index Pickle]
     end
-
-    subgraph API["🚀 API"]
+    
+    subgraph API["API BACKEND"]
         A1[FastAPI]
+        A2[Endpoint /ask]
     end
-
-    subgraph LLM["🤖 LLM"]
-        L1[Recherche]
-        L2[Claude]
+    
+    subgraph LLM["MOTEUR IA"]
+        L1[Recherche Vectorielle]
+        L2[Claude Sonnet 3.5]
+        L3[Post-processing]
     end
-
-    subgraph Client["💬 CLIENT"]
+    
+    subgraph Client["INTERFACE UTILISATEUR"]
         C1[Bot Slack]
+        C2[Commandes Slash]
     end
-
+    
     Sources --> Scraping
     Scraping --> Process
     Process --> Index
     Index --> API
-    API --> LLM
-    LLM --> API
-    API --> Client
-    Client -->|Question| API
-
-    style Sources fill:#e8f5e9,stroke:#4caf50,stroke-width:2px
-    style Scraping fill:#e8f5e9,stroke:#4caf50,stroke-width:2px
-    style Process fill:#e8f5e9,stroke:#4caf50,stroke-width:2px
-    style Index fill:#fff3e0,stroke:#ff9800,stroke-width:2px
-    style API fill:#ffebee,stroke:#f44336,stroke-width:2px
-    style LLM fill:#ffebee,stroke:#f44336,stroke-width:2px
-    style Client fill:#e3f2fd,stroke:#2196f3,stroke-width:2px
+    
+    Client -->|Question utilisateur| API
+    API --> L1
+    L1 -->|Contexte + Prompt| L2
+    L2 -->|Réponse générée| L3
+    L3 --> API
+    API -->|Réponse formatée| Client
+    
+    style Sources fill:#d4edda,stroke:#28a745,stroke-width:3px
+    style Scraping fill:#d4edda,stroke:#28a745,stroke-width:3px
+    style Process fill:#d4edda,stroke:#28a745,stroke-width:3px
+    style Index fill:#fff3cd,stroke:#ffc107,stroke-width:3px
+    style API fill:#f8d7da,stroke:#dc3545,stroke-width:3px
+    style LLM fill:#f8d7da,stroke:#dc3545,stroke-width:3px
+    style Client fill:#cce5ff,stroke:#004085,stroke-width:3px
 ```
 
 ### Détail des Couches
@@ -220,15 +228,15 @@ Le bot Slack rend Comply accessible directement dans l'outil de communication qu
 
 ```mermaid
 sequenceDiagram
-    participant User as 👤 Utilisateur Slack
-    participant Bot as 💬 Bot Slack
-    participant API as 🚀 API FastAPI
-    participant Detector as 🎯 Type Detector
-    participant Search as 🔍 Vector Search
-    participant Boost as ⚡ Booster
-    participant Prompt as 📝 Prompt Engine
-    participant Claude as 🤖 Claude API
-    participant Format as 📦 Formatter
+    participant User as Utilisateur Slack
+    participant Bot as Bot Slack
+    participant API as API FastAPI
+    participant Detector as Type Detector
+    participant Search as Vector Search
+    participant Boost as Booster
+    participant Prompt as Prompt Engine
+    participant Claude as Claude API
+    participant Format as Formatter
     
     User->>Bot: @comply Comment modifier<br/>les statuts ?
     Bot->>API: POST /ask
@@ -250,7 +258,7 @@ sequenceDiagram
     Prompt-->>API: Prompt complet
     
     API->>Claude: POST /v1/messages
-    Note over Claude: Claude Sonnet 4.5<br/>Génération réponse
+    Note over Claude: Claude Sonnet 3.5<br/>Génération réponse
     Claude-->>API: Réponse brute
     
     API->>Format: Post-processing
@@ -259,16 +267,6 @@ sequenceDiagram
     
     API-->>Bot: JSON + sources
     Bot-->>User: Réponse formatée<br/>avec sources
-    
-    style User fill:#e8f5e9,stroke:#4caf50,stroke-width:2px
-    style Bot fill:#e8f5e9,stroke:#4caf50,stroke-width:2px
-    style API fill:#ffebee,stroke:#f44336,stroke-width:2px
-    style Detector fill:#ffebee,stroke:#f44336,stroke-width:2px
-    style Search fill:#ffebee,stroke:#f44336,stroke-width:2px
-    style Boost fill:#ffebee,stroke:#f44336,stroke-width:2px
-    style Prompt fill:#ffebee,stroke:#f44336,stroke-width:2px
-    style Claude fill:#ffebee,stroke:#f44336,stroke-width:2px
-    style Format fill:#ffebee,stroke:#f44336,stroke-width:2px
 ```
 
 ---
@@ -514,6 +512,213 @@ Sélectionné pour son adhérence exceptionnelle aux instructions, son faible ta
 
 ---
 
+## Installation et déploiement
+
+### Installation locale
+
+#### Prérequis
+- Python 3.11
+- Node.js et pnpm
+- Variables d'environnement configurées
+
+#### Étape 1 : Créer l'environnement Python
+
+```bash
+# Créer l'environnement virtuel
+python3.11 -m venv .venv
+
+# Activer l'environnement (Mac/Linux)
+source .venv/bin/activate
+
+# Activer l'environnement (Windows)
+.venv\Scripts\activate
+```
+
+#### Étape 2 : Installer les dépendances Python
+
+```bash
+cd api/
+pip install -r requirements.txt
+```
+
+#### Étape 3 : Configurer les variables d'environnement
+
+Créez un fichier `.env` dans le dossier `api/` en vous basant sur `.env.example` :
+
+```bash
+cp .env.example .env
+```
+
+Renseignez les variables obligatoires :
+- `CLAUDE_API_KEY` : Votre clé API Claude
+- `DATA_DIR` : Dossier contenant les données sources
+- `VECTOR_DB_PATH` : Chemin vers le fichier d'index vectoriel (.pkl)
+- `SLACK_BOT_TOKEN` : Token du bot Slack
+- `SLACK_SIGNING_SECRET` : Secret de signature Slack
+- `SLACK_APP_TOKEN` : Token d'application Slack (pour Socket Mode)
+- `API_URL` : URL de l'API (ex: http://localhost:8000)
+
+#### Étape 4 : Lancer l'API
+
+```bash
+cd api/
+python main_kiwi_advanced.py
+```
+
+L'API sera accessible sur `http://localhost:8000`
+
+#### Étape 5 : Installer et lancer le bot Slack
+
+Dans un nouveau terminal :
+
+```bash
+cd slack-bot/
+pnpm install
+```
+
+Créez également un fichier `.env` dans le dossier `slack-bot/` :
+
+```bash
+cp .env.example .env
+```
+
+Puis lancez le bot :
+
+```bash
+pnpm dev
+```
+
+---
+
+### Installation Docker
+
+Pour un déploiement simplifié, utilisez Docker Compose.
+
+#### Prérequis
+- Docker et Docker Compose installés
+- Variables d'environnement configurées dans les fichiers `.env`
+
+#### Étape 1 : Configuration
+
+Assurez-vous que les fichiers `.env` sont présents dans :
+- `api/.env`
+- `slack-bot/.env`
+
+#### Étape 2 : Lancement
+
+À la racine du projet :
+
+```bash
+docker compose up -d --build
+```
+
+Cette commande va :
+- Construire les images Docker
+- Lancer l'API FastAPI
+- Lancer le bot Slack
+- Configurer le réseau entre les services
+
+#### Étape 3 : Vérification
+
+```bash
+# Voir les logs
+docker compose logs -f
+
+# Vérifier que les services tournent
+docker compose ps
+```
+
+#### Arrêt des services
+
+```bash
+docker compose down
+```
+
+---
+
+### Configuration
+
+#### Variables d'environnement requises
+
+**api/.env**
+```env
+CLAUDE_API_KEY=sk-ant-xxxxx
+DATA_DIR=./data
+VECTOR_DB_PATH=./kiwi_index.pkl
+```
+
+**slack-bot/.env**
+```env
+SLACK_BOT_TOKEN=xoxb-xxxxx
+SLACK_SIGNING_SECRET=xxxxx
+SLACK_APP_TOKEN=xapp-xxxxx
+API_URL=http://localhost:8000
+```
+
+---
+
+## Dépannage
+
+### Problème : L'API ne trouve pas le fichier pickle
+
+**Symptôme** : Erreur `FileNotFoundError: kiwi_index.pkl`
+
+**Solution** : 
+- Vérifiez que le chemin `VECTOR_DB_PATH` dans `api/.env` pointe vers le bon fichier
+- Le fichier `kiwi_index.pkl` doit être dans le dossier `api/`
+- Si absent, exécutez le script de génération de l'index :
+  ```bash
+  cd api/
+  python generate_index.py
+  ```
+
+### Problème : Le bot Slack ne répond pas
+
+**Vérifications** :
+1. L'API est bien lancée et accessible
+2. Le `SLACK_BOT_TOKEN` est valide
+3. Le bot a les permissions OAuth nécessaires dans Slack
+4. L'URL de l'API est correcte dans `slack-bot/.env`
+
+### Problème : Erreur Docker "port already in use"
+
+**Solution** :
+```bash
+# Identifier le processus utilisant le port
+lsof -i :8000  # Mac/Linux
+netstat -ano | findstr :8000  # Windows
+
+# Arrêter le processus ou changer le port dans compose.yml
+```
+
+### Problème : Réponses lentes ou timeouts
+
+**Causes possibles** :
+- Index trop volumineux (> 100 000 chunks)
+- Pas assez de mémoire RAM
+- Clé API Claude avec rate limit dépassé
+
+**Solutions** :
+- Réduire le nombre de chunks indexés
+- Augmenter les ressources Docker
+- Vérifier les quotas de votre clé API
+
+### Logs et debugging
+
+```bash
+# Logs API en local
+cd api/
+python main_kiwi_advanced.py --debug
+
+# Logs Docker
+docker compose logs api -f
+docker compose logs slack-bot -f
+
+# Logs bot Slack en local
+cd slack-bot/
+pnpm dev  # Les logs s'affichent dans le terminal
+```
+---
 ## Contacts et Support
 
 ### Équipe Technique SEPEFREI
@@ -548,4 +753,4 @@ Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 ---
 
 *Document rédigé par l'équipe Pôle SI & Performance SEPEFREI*  
-*Mandat 2025-2026 - Version 1.0*
+*Mandat 2025-2026 - Version 1.1
