@@ -62,7 +62,7 @@ Matteo a développé l'ensemble de la couche API et de l'orchestration. Ses cont
 
 Victoria a défini la vision produit et piloté les aspects stratégiques et organisationnels du projet. Ses contributions incluent :
 
-- **Analyse des besoins** : Interviews de Junior-Entrepreneurs pour identifier les cas d'usage prioritaires.
+- **Analyse des besoins** : Interviews des membres pour identifier les cas d'usage prioritaires.
 - **Définition de la vision produit** : Cadrage du scope fonctionnel et priorisation des fonctionnalités.
 - **Coordination parties prenantes** : Liaison avec les équipes CNJE pour accès aux ressources documentaires.
 - **Tests et validation métier** : Coordination des beta-tests et validation de la pertinence des réponses.
@@ -144,7 +144,7 @@ flowchart TD
     
     subgraph Client["INTERFACE UTILISATEUR"]
         C1[Bot Slack]
-        C2[Commandes Slash]
+        C2[Commandes Slack]
     end
     
     Sources --> Scraping
